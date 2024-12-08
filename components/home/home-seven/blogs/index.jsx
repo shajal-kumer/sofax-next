@@ -1,6 +1,6 @@
-import image1 from "../../../../assets/images/v7/image6v7.png";
-import image2 from "../../../../assets/images/v7/image7v7.png";
-import image3 from "../../../../assets/images/v7/image8v7.png";
+import image1 from "@/public/images/v7/image6v7.png";
+import image2 from "@/public/images/v7/image7v7.png";
+import image3 from "@/public/images/v7/image8v7.png";
 import FadeInStagger from "../../../animation/FadeInStagger";
 import BlogCard from "./BlogCard";
 

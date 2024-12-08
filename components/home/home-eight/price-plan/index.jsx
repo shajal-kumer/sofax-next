@@ -1,8 +1,9 @@
+"use client";
+import Icon5 from "@/public/images/v1/icon5.png";
+import Icon6 from "@/public/images/v1/icon6.png";
+import Icon7 from "@/public/images/v1/icon7.png";
+import featureIcon from "@/public/images/v1/icon8.png";
 import { useState } from "react";
-import Icon5 from "../../../../assets/images/v1/icon5.png";
-import Icon6 from "../../../../assets/images/v1/icon6.png";
-import Icon7 from "../../../../assets/images/v1/icon7.png";
-import featureIcon from "../../../../assets/images/v1/icon8.png";
 import FadeInStagger from "../../../animation/FadeInStagger";
 import PricingCard from "./PricingCard";
 

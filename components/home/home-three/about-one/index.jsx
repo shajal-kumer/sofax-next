@@ -1,6 +1,7 @@
-import Icon4 from "../../../../assets/images/v3/Icon4.png";
-import Thumb from "../../../../assets/images/v3/thumb1.png";
+import Icon4 from "@/public/images/v3/Icon4.png";
+import Thumb from "@/public/images/v3/thumb1.png";
 
+import Image from "next/image";
 import FadeInLeft from "../../../animation/FadeInLeft";
 import TextSplitFadeIn from "../../../animation/TextSplitFadeIn";
 
@@ -11,7 +12,7 @@ function AboutOne() {
 				<div className="row">
 					<div className="col-lg-5">
 						<FadeInLeft className="sofax-content-img box-shadow">
-							<img src={Thumb} alt="Thumb" />
+							<Image src={Thumb} alt="Thumb" />
 						</FadeInLeft>
 					</div>
 					<div className="col-lg-7">
@@ -26,7 +27,7 @@ function AboutOne() {
 							<div className="extra-mt">
 								<div className="sofax-iconbox-wrap2">
 									<div className="sofax-iconbox-icon2">
-										<img src={Icon4} alt="Icon 4" />
+										<Image src={Icon4} alt="Icon 4" />
 									</div>
 									<div className="sofax-iconbox-data2">
 										<h4>Improved Collaboration</h4>
@@ -38,7 +39,7 @@ function AboutOne() {
 								</div>
 								<div className="sofax-iconbox-wrap2">
 									<div className="sofax-iconbox-icon2">
-										<img src={Icon4} alt="Icon 4" />
+										<Image src={Icon4} alt="Icon 4" />
 									</div>
 									<div className="sofax-iconbox-data2">
 										<h4>Efficient Task Management</h4>
@@ -50,7 +51,7 @@ function AboutOne() {
 								</div>
 								<div className="sofax-iconbox-wrap2">
 									<div className="sofax-iconbox-icon2">
-										<img src={Icon4} alt="Icon 4" />
+										<Image src={Icon4} alt="Icon 4" />
 									</div>
 									<div className="sofax-iconbox-data2">
 										<h4>Project Transparency</h4>

@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
-import Thumb from "../../../../assets/images/v4/aboutthumb.png";
+import Thumb from "@/public/images/v4/aboutthumb.png";
+import Image from "next/image";
+import Link from "next/link";
 import FadeInRight from "../../../animation/FadeInRight";
 import FadeInUp from "../../../animation/FadeInUp";
 function AboutOne() {
@@ -9,7 +10,7 @@ function AboutOne() {
 				<div className="row">
 					<div className="col-lg-5 order-lg-2">
 						<FadeInRight className="sofax-content-thumb-v4 ">
-							<img src={Thumb} alt="Thumbs" />
+							<Image src={Thumb} alt="Thumbs" />
 						</FadeInRight>
 					</div>
 					<div className="col-lg-7">
@@ -27,7 +28,7 @@ function AboutOne() {
 								media, such as images, videos and infographics.
 							</p>
 							<FadeInUp className="extra-mt">
-								<Link className="sofax-default-btn pill" data-text="Learn More" to="/contact-us">
+								<Link className="sofax-default-btn pill" data-text="Learn More" href="/contact-us">
 									<span className="button-wraper">Learn More</span>
 								</Link>
 							</FadeInUp>

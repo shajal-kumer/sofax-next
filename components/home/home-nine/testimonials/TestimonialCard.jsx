@@ -1,4 +1,5 @@
-import RatingFull from "../../../../assets/images/v2/yellowstart.svg";
+import RatingFull from "@/public/images/v2/yellowstart.svg";
+import Image from "next/image";
 
 function TestimonialCard({ testimonial: { rating, content, author, designation, img } }) {
 	return (
@@ -6,7 +7,7 @@ function TestimonialCard({ testimonial: { rating, content, author, designation, 
 			<div className="row">
 				<div className="col-lg-5">
 					<div className="testimonial-thumb">
-						<img src={img} alt="thumb" />
+						<Image src={img} alt="thumb" />
 					</div>
 				</div>
 				<div className="col-lg-6">
@@ -15,7 +16,7 @@ function TestimonialCard({ testimonial: { rating, content, author, designation, 
 							<ul>
 								{[...Array(rating)].map(() => (
 									<li key={crypto.randomUUID()}>
-										<img src={RatingFull} alt="Rating" />
+										<Image src={RatingFull} alt="Rating" />
 									</li>
 								))}
 							</ul>

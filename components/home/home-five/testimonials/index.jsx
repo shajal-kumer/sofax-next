@@ -1,7 +1,9 @@
+"use client";
+import Image5 from "@/public/images/v5/image5.png";
+import Shape from "@/public/images/v5/shape5.png";
+import Image from "next/image";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Image5 from "../../../../assets/images/v5/image5.png";
-import Shape from "../../../../assets/images/v5/shape5.png";
 import TestimonialCard from "./TestimonialCard";
 
 const testimonialsData = [
@@ -62,7 +64,7 @@ function Testimonials() {
 						</div>
 					</div>
 					<div className="sofax-testimonial-shapev5">
-						<img src={Shape} alt="Shape" />
+						<Image src={Shape} alt="Shape" />
 					</div>
 				</div>
 			</div>

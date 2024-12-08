@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 function ServiceCard({ service: { id, title, description } }) {
 	return (
@@ -9,7 +9,7 @@ function ServiceCard({ service: { id, title, description } }) {
 			<div className="sofax-service-textv9">
 				<h3> {title}</h3>
 				<p>{description}</p>
-				<Link to="/single-service">
+				<Link href="/single-service">
 					<div className="sofax-icon-btn  sofax-blog-icon-btn blog-versionv7 mt-30">
 						Read More
 						<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">

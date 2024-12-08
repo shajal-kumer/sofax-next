@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
-import Icon1 from "../../../../assets/images/v10/icon4v10.png";
-import Icon2 from "../../../../assets/images/v10/icon5v10.png";
-import Thumb from "../../../../assets/images/v10/thumb2v10.png";
+import Icon1 from "@/public/images/v10/icon4v10.png";
+import Icon2 from "@/public/images/v10/icon5v10.png";
+import Thumb from "@/public/images/v10/thumb2v10.png";
+import Link from "next/link";
 import FadeInUp from "../../../animation/FadeInUp";
 function AboutOne() {
 	return (
@@ -28,13 +28,13 @@ function AboutOne() {
 								<div className="sofax-about-wrapv10">
 									<ul className="nav nav-tabs">
 										<li className="nav-item">
-											<Link data-bs-toggle="tab" className="nav-link " to="/contact-us">
+											<Link data-bs-toggle="tab" className="nav-link " href="/contact-us">
 												<img src={Icon1} alt="Icon" />
 												<h4>Domain Services</h4>
 											</Link>
 										</li>
 										<li className="nav-item">
-											<Link data-bs-toggle="tab" className="nav-link" to="/contact-us">
+											<Link data-bs-toggle="tab" className="nav-link" href="/contact-us">
 												<img src={Icon2} alt="Icon" />
 												<h4>Web Hosting Services</h4>
 											</Link>

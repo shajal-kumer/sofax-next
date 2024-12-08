@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
-import Flag from "../../../../assets/images/v7/flag.png";
+import Flag from "@/public/images/v7/flag.png";
+import Image from "next/image";
+import Link from "next/link";
 import FadeInRight from "../../../animation/FadeInRight";
 import FadeInUp from "../../../animation/FadeInUp";
 function Integrations() {
@@ -20,7 +21,7 @@ function Integrations() {
 								<Link
 									className="sofax-default-btn pill"
 									data-text="View all integrations"
-									to="/contact-us"
+									href="/contact-us"
 								>
 									<span className="button-wraper">View all integrations </span>
 								</Link>
@@ -29,7 +30,7 @@ function Integrations() {
 					</div>
 					<div className="col-lg-5">
 						<FadeInRight className="integration-social-icon integrationv7">
-							<img src={Flag} alt="Flag" />
+							<Image src={Flag} alt="Flag" />
 						</FadeInRight>
 					</div>
 				</div>

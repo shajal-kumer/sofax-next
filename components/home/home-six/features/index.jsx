@@ -1,9 +1,9 @@
 import FadeInStagger from "../../../animation/FadeInStagger";
 import FeatureCard from "./FeatureCard";
 
-import Card1 from "../../../../assets/images/v6/Card1v6.png";
-import Card2 from "../../../../assets/images/v6/Card2v6.png";
-import Card3 from "../../../../assets/images/v6/Card3v6.png";
+import Card1 from "@/public/images/v6/Card1v6.png";
+import Card2 from "@/public/images/v6/Card2v6.png";
+import Card3 from "@/public/images/v6/Card3v6.png";
 const featuresData = [
 	{
 		id: crypto.randomUUID(),

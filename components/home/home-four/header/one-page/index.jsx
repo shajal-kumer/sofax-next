@@ -1,4 +1,4 @@
-import MobileNavbar from "../../../../common/navigation/mobile-nav/MobileNavbar";
+import MobileNavbar from "@/components/common/navigation/mobile-nav/MobileNavbar";
 import HeaderButton from "../HeaderButton";
 import HeaderLogo from "../HeaderLogo";
 

@@ -1,6 +1,6 @@
-import icon1 from "../../../../assets/images/v8/icon3v8.png";
-import icon2 from "../../../../assets/images/v8/icon4v8.png";
-import icon3 from "../../../../assets/images/v8/icon5v8.png";
+import icon1 from "@/public/images/v8/icon3v8.png";
+import icon2 from "@/public/images/v8/icon4v8.png";
+import icon3 from "@/public/images/v8/icon5v8.png";
 
 import FadeInStagger from "../../../animation/FadeInStagger";
 import FeatureCard from "./FeatureCard";

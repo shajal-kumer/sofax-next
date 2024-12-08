@@ -1,6 +1,7 @@
-import Icon1 from "../../../../assets/images/v8/icon1v8.png";
-import Icon2 from "../../../../assets/images/v8/icon2v8.png";
-import Thumb from "../../../../assets/images/v8/image2v8.png";
+import Icon1 from "@/public/images/v8/icon1v8.png";
+import Icon2 from "@/public/images/v8/icon2v8.png";
+import Thumb from "@/public/images/v8/image2v8.png";
+import Image from "next/image";
 
 function AboutOne() {
 	return (
@@ -9,7 +10,7 @@ function AboutOne() {
 				<div className="row">
 					<div className="col-lg-6">
 						<div className="sofax-about-thumbv8 wow fadeInLeft">
-							<img src={Thumb} alt="thumb" />
+							<Image src={Thumb} alt="thumb" />
 						</div>
 					</div>
 					<div className="col-lg-6">
@@ -25,7 +26,7 @@ function AboutOne() {
 						<div className="sofax-about-content-wrap">
 							<div className="sofax-iconbox-wrap2">
 								<div className="sofax-iconbox-icon2">
-									<img src={Icon1} alt="icon" />
+									<Image src={Icon1} alt="icon" />
 								</div>
 								<div className="sofax-iconbox-data2 aboutv8">
 									<h4>Best Services</h4>
@@ -34,7 +35,7 @@ function AboutOne() {
 							</div>
 							<div className="sofax-iconbox-wrap2">
 								<div className="sofax-iconbox-icon2">
-									<img src={Icon2} alt="icon" />
+									<Image src={Icon2} alt="icon" />
 								</div>
 								<div className="sofax-iconbox-data2 aboutv8">
 									<h4>24/7 Call Support</h4>

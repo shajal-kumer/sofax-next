@@ -1,6 +1,7 @@
-import Shape1 from "../../../../assets/images/v5/shape1.png";
-import Shape2 from "../../../../assets/images/v5/shape2.png";
-import Shape3 from "../../../../assets/images/v5/shape3.png";
+import Shape1 from "@/public/images/v5/shape1.png";
+import Shape2 from "@/public/images/v5/shape2.png";
+import Shape3 from "@/public/images/v5/shape3.png";
+import Image from "next/image";
 import HeroButton from "./HeroButton";
 import HeroVideo from "./HeroVideo";
 function Hero() {
@@ -17,16 +18,16 @@ function Hero() {
 						goals and objectives.
 					</p>
 					<div className="sofax-hero5-shape1">
-						<img src={Shape1} alt="Shape1" />
+						<Image src={Shape1} alt="Shape1" />
 					</div>
 
 					<HeroButton />
 
 					<div className="sofax-hero5-shape2">
-						<img src={Shape2} alt="Shape" />
+						<Image src={Shape2} alt="Shape" />
 					</div>
 					<div className="sofax-hero5-shape3">
-						<img src={Shape3} alt="Shape3" />
+						<Image src={Shape3} alt="Shape3" />
 					</div>
 				</div>
 			</div>

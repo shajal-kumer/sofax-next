@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import FadeInStagger from "../../../animation/FadeInStagger";
 import BlogCard from "./BlogCard";
 
-import Image1 from "../../../../assets/images/v9/thumb4v9.png";
-import Image2 from "../../../../assets/images/v9/thumb5v9.png";
-import Image3 from "../../../../assets/images/v9/thumb6v9.png";
+import Image1 from "@/public/images/v9/thumb4v9.png";
+import Image2 from "@/public/images/v9/thumb5v9.png";
+import Image3 from "@/public/images/v9/thumb6v9.png";
 
 const blogsData = [
 	{
@@ -46,7 +46,7 @@ function Blogs() {
 						</div>
 						<div className="col-xl-5 col-lg-4 d-flex justify-content-end align-items-center">
 							<div className="sofax-title-btn wow fadeInUpX">
-								<Link className="sofax-default-btn pill" data-text="View All Articles" to="/service">
+								<Link className="sofax-default-btn pill" data-text="View All Articles" href="/service">
 									<span className="button-wraper">View All Articles</span>
 								</Link>
 							</div>

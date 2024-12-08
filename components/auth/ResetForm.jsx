@@ -1,5 +1,5 @@
+import Link from "next/link";
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import Field from "../common/Field";
 function ResetForm() {
@@ -55,7 +55,7 @@ function ResetForm() {
 							</button>
 							<div className="login reset-pswrd">
 								<span>Remember password?</span>
-								<Link to="/sign-in">
+								<Link href="/sign-in">
 									<h4>Sign In Now</h4>
 								</Link>
 							</div>

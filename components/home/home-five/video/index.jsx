@@ -1,8 +1,9 @@
+"use client";
+import PlayBtnImg from "@/public/images/v5/play-btn.png";
+import Shape2Img from "@/public/images/v5/shape2.png";
+import VideoBg from "@/public/images/v5/video-bg.png";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
-import PlayBtnImg from "../../../../assets/images/v5/play-btn.png";
-import Shape2Img from "../../../../assets/images/v5/shape2.png";
-import VideoBg from "../../../../assets/images/v5/video-bg.png";
 import FadeInUp from "../../../animation/FadeInUp";
 function Video() {
 	const [isOpen, setOpen] = useState(false);

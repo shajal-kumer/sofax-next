@@ -1,7 +1,8 @@
-import Icon1 from "../../../../assets/images/v4/icon1.png";
-import Icon2 from "../../../../assets/images/v4/icon2.png";
-import Icon3 from "../../../../assets/images/v4/icon3.png";
-import Thumb from "../../../../assets/images/v4/servicethumb.png";
+import Icon1 from "@/public/images/v4/icon1.png";
+import Icon2 from "@/public/images/v4/icon2.png";
+import Icon3 from "@/public/images/v4/icon3.png";
+import Thumb from "@/public/images/v4/servicethumb.png";
+import Image from "next/image";
 import FadeInLeft from "../../../animation/FadeInLeft";
 function AboutTwo() {
 	return (
@@ -10,7 +11,7 @@ function AboutTwo() {
 				<div className="row">
 					<div className="col-lg-6">
 						<FadeInLeft className="sofax-content-thumb-v4 mr-80">
-							<img src={Thumb} alt="Thumb" />
+							<Image src={Thumb} alt="Thumb" />
 						</FadeInLeft>
 					</div>
 					<div className="col-lg-6">
@@ -22,7 +23,7 @@ function AboutTwo() {
 						<div className="extra-mt">
 							<div className="sofax-iconbox-wrap2">
 								<div className="sofax-iconbox-icon2">
-									<img src={Icon1} alt="Icon" />
+									<Image src={Icon1} alt="Icon" />
 								</div>
 								<div className="sofax-iconbox-data2">
 									<h4>Analytics and Reporting</h4>
@@ -34,7 +35,7 @@ function AboutTwo() {
 							</div>
 							<div className="sofax-iconbox-wrap2">
 								<div className="sofax-iconbox-icon2">
-									<img src={Icon2} alt="Icon" />
+									<Image src={Icon2} alt="Icon" />
 								</div>
 								<div className="sofax-iconbox-data2">
 									<h4>Trend Analysis</h4>
@@ -46,7 +47,7 @@ function AboutTwo() {
 							</div>
 							<div className="sofax-iconbox-wrap2">
 								<div className="sofax-iconbox-icon2">
-									<img src={Icon3} alt="Icon" />
+									<Image src={Icon3} alt="Icon" />
 								</div>
 								<div className="sofax-iconbox-data2">
 									<h4>Client Education</h4>

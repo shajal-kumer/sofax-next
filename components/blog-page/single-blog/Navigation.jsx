@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import Icon1 from "../../../assets/images/blog/Icon1.png";
 import Icon2 from "../../../assets/images/blog/Icon2.png";
 import Thumb1 from "../../../assets/images/blog/blogthumb4.png";
@@ -8,7 +8,7 @@ function Navigation() {
 		<div className="sofax-post-navigation-wrapper">
 			<div className="nav-preview-wrap">
 				<div className="nav-preview-icon">
-					<Link to="/single-blog">
+					<Link href="/single-blog">
 						<img src={Icon1} alt="arrow Icon" />
 						Preview Post
 					</Link>
@@ -27,7 +27,7 @@ function Navigation() {
 			</div>
 			<div className="nav-preview-wrap">
 				<div className="nav-preview-icon ml-650">
-					<Link to="/single-blog">
+					<Link href="/single-blog">
 						Next Post
 						<img src={Icon2} alt="arrow icon" />
 					</Link>

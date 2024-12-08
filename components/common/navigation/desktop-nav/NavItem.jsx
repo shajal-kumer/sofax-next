@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import ArrowDown from "./ArrowDown";
 function NavItem({ dropdown, title, children, url = "" }) {
 	const urlFormated = url !== "/" ? `/${url}` : "/";
@@ -13,7 +13,7 @@ function NavItem({ dropdown, title, children, url = "" }) {
 		</li>
 	) : (
 		<li className="nav-item">
-			<Link to={urlFormated} className="nav-link-item">
+			<Link href={urlFormated} className="nav-link-item">
 				{children}
 			</Link>
 		</li>

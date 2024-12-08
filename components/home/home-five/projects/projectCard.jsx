@@ -1,21 +1,22 @@
-import { Link } from "react-router-dom";
-import Icon from "../../../../assets/images/v5/icon5.png";
+import Icon from "@/public/images/v5/icon5.png";
+import Image from "next/image";
+import Link from "next/link";
 function ProjectCard({ project: { title, image, category } }) {
 	return (
 		<div className="sofax-portfolio-content-wrap">
 			<div className="sofax-portfolio-thumb">
-				<Link to="/single-portfolio">
-					<img src={image} alt="project image" />
+				<Link href="/single-portfolio">
+					<Image src={image} alt="project image" />
 				</Link>
 			</div>
-			<Link to="/single-portfolio">
+			<Link href="/single-portfolio">
 				<div className="sofax-portfolio-author-wrap">
 					<div className="sofax-portfolio-author-data">
 						<h4>{title}</h4>
 						<p>{category}</p>
 					</div>
 					<div className="sofax-portfolio-author-icon">
-						<img src={Icon} alt="Icon" />
+						<Image src={Icon} alt="Icon" />
 					</div>
 				</div>
 			</Link>

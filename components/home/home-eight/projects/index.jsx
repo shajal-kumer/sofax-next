@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
-import thumb1 from "../../../../assets/images/v8/thumb1v8.png";
-import thumb2 from "../../../../assets/images/v8/thumb2v8.png";
-import thumb3 from "../../../../assets/images/v8/thumb3v8.png";
-import thumb4 from "../../../../assets/images/v8/thumb4v8.png";
-import thumb5 from "../../../../assets/images/v8/thumb5v8.png";
-import thumb6 from "../../../../assets/images/v8/thumb6v8.png";
+import thumb1 from "@/public/images/v8/thumb1v8.png";
+import thumb2 from "@/public/images/v8/thumb2v8.png";
+import thumb3 from "@/public/images/v8/thumb3v8.png";
+import thumb4 from "@/public/images/v8/thumb4v8.png";
+import thumb5 from "@/public/images/v8/thumb5v8.png";
+import thumb6 from "@/public/images/v8/thumb6v8.png";
+import Link from "next/link";
 import FadeInStagger from "../../../animation/FadeInStagger";
 import ProjectCard from "./ProjectCard";
 const projectsData = [
@@ -64,7 +64,7 @@ function Projects() {
 						</div>
 						<div className="col-xl-5 col-lg-4 d-flex justify-content-end align-items-center">
 							<div className="sofax-title-btn wow fadeInUpX">
-								<Link className="sofax-default-btn pill" data-text="View All Projects" to="/service">
+								<Link className="sofax-default-btn pill" data-text="View All Projects" href="/service">
 									<span className="button-wraper">View All Projects</span>
 								</Link>
 							</div>

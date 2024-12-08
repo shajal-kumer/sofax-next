@@ -1,5 +1,6 @@
-import Shape10 from "../../../../assets/images/v4/shape10.png";
-import Shape9 from "../../../../assets/images/v4/shape9.png";
+import Shape10 from "@/public/images/v4/shape10.png";
+import Shape9 from "@/public/images/v4/shape9.png";
+import Image from "next/image";
 import ServiceCard from "./ServiceCard";
 const serviceData = [
 	{
@@ -41,10 +42,10 @@ function Services() {
 					</div>
 				</div>
 				<div className="sofax-content-shape1">
-					<img src={Shape9} alt="shape" />
+					<Image src={Shape9} alt="shape" />
 				</div>
 				<div className="sofax-content-shape2">
-					<img src={Shape10} alt="shape" />
+					<Image src={Shape10} alt="shape" />
 				</div>
 				<div className="sofax-service-table-wrap">
 					{serviceData.map((service, index) => (

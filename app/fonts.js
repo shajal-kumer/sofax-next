@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 
-export const clashGroteskSemibold = localFont({
-	src: "./fonts/clash-grotesk/ClashGroteskSemibold.woff",
+export const clashGrotesk = localFont({
+	src: "./fonts/clash-grotesk/ClashGroteskSemibold.woff2",
 	display: "swap",
 	variable: "--font-clash-grotesk",
 });

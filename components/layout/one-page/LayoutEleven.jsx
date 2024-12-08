@@ -1,11 +1,10 @@
-import { Outlet } from "react-router-dom";
 import Header from "../common/header";
 import Footer from "../home/home-five/footer";
-function OnePageLayoutEleven() {
+function OnePageLayoutEleven({ children }) {
 	return (
 		<>
 			<Header />
-			<Outlet />
+			{children}
 			<Footer />
 		</>
 	);

@@ -1,8 +1,9 @@
-import Location from "../../../../assets/images/v4/location-marker.png";
-import Mail from "../../../../assets/images/v4/mail.png";
-import Phone from "../../../../assets/images/v4/phone.png";
-import Shape13 from "../../../../assets/images/v4/shape13.png";
-import Shape14 from "../../../../assets/images/v4/shape14.png";
+import Location from "@/public/images/v4/location-marker.png";
+import Mail from "@/public/images/v4/mail.png";
+import Phone from "@/public/images/v4/phone.png";
+import Shape13 from "@/public/images/v4/shape13.png";
+import Shape14 from "@/public/images/v4/shape14.png";
+import Image from "next/image";
 import ContactForm from "./ContactForm";
 
 function ContactUs() {
@@ -25,7 +26,7 @@ function ContactUs() {
 							<div className="extra-mt">
 								<div className="sofax-iconbox-wrap2 light-color">
 									<div className="sofax-iconbox-icon2">
-										<img src={Mail} alt="Mail" />
+										<Image src={Mail} alt="Mail" />
 									</div>
 									<div className="sofax-iconbox-data2">
 										<h5 className="mb-10">Send us an email</h5>
@@ -34,7 +35,7 @@ function ContactUs() {
 								</div>
 								<div className="sofax-iconbox-wrap2 light-color">
 									<div className="sofax-iconbox-icon2">
-										<img src={Location} alt="Location" />
+										<Image src={Location} alt="Location" />
 									</div>
 									<div className="sofax-iconbox-data2">
 										<h5 className="mb-10">Our location</h5>
@@ -43,7 +44,7 @@ function ContactUs() {
 								</div>
 								<div className="sofax-iconbox-wrap2 light-color">
 									<div className="sofax-iconbox-icon2">
-										<img src={Phone} alt="Phone" />
+										<Image src={Phone} alt="Phone" />
 									</div>
 									<div className="sofax-iconbox-data2">
 										<h5 className="mb-10">Give us a call</h5>
@@ -58,10 +59,10 @@ function ContactUs() {
 					</div>
 				</div>
 				<div className="sofax-form-shape">
-					<img src={Shape13} alt="shape" />
+					<Image src={Shape13} alt="shape" />
 				</div>
 				<div className="sofax-form-shape">
-					<img src={Shape14} alt="Shape" />
+					<Image src={Shape14} alt="Shape" />
 				</div>
 			</div>
 		</section>

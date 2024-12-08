@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
-import Icon5 from "../../../../assets/images/v3/icon5.png";
-import Icon6 from "../../../../assets/images/v3/icon6.png";
-import Icon7 from "../../../../assets/images/v3/icon7.png";
-import Icon8 from "../../../../assets/images/v3/icon8.png";
+import Icon5 from "@/public/images/v3/icon5.png";
+import Icon6 from "@/public/images/v3/icon6.png";
+import Icon7 from "@/public/images/v3/icon7.png";
+import Icon8 from "@/public/images/v3/icon8.png";
+import Link from "next/link";
 import FadeInStagger from "../../../animation/FadeInStagger";
 import FadeInUp from "../../../animation/FadeInUp";
 import TextSplitFadeIn from "../../../animation/TextSplitFadeIn";
@@ -52,7 +52,11 @@ function Services() {
 						</div>
 						<div className="col-xl-6 col-lg-4 d-flex align-items-center justify-content-end">
 							<FadeInUp className="sofax-title-btn">
-								<Link className="sofax-default-btn pill" data-text=" View all services " to="/service">
+								<Link
+									className="sofax-default-btn pill"
+									data-text=" View all services "
+									href="/service"
+								>
 									<span className="button-wraper"> View all services </span>
 								</Link>
 							</FadeInUp>

@@ -1,11 +1,10 @@
-import { Outlet } from "react-router-dom";
 import Header from "../common/header/two";
 
-function OnePageLayoutThirteen() {
+function OnePageLayoutThirteen({ children }) {
 	return (
 		<>
 			<Header />
-			<Outlet />
+			{children}
 		</>
 	);
 }

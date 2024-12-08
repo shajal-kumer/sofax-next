@@ -1,5 +1,6 @@
-import Icon5 from "../../../../assets/images/v4/icon5.png";
-import Thumb from "../../../../assets/images/v4/testimonialthumb.png";
+import Icon5 from "@/public/images/v4/icon5.png";
+import Thumb from "@/public/images/v4/testimonialthumb.png";
+import Image from "next/image";
 import FadeInUp from "../../../animation/FadeInUp";
 function Testimonial() {
 	return (
@@ -8,9 +9,9 @@ function Testimonial() {
 				<div className="row">
 					<div className="col-lg-5 order-lg-2">
 						<FadeInUp className="sofax-content-thumb-v4 ml-70 position-ralatiove ">
-							<img src={Thumb} alt="Thumb" />
+							<Image src={Thumb} alt="Thumb" />
 							<div className="sofax-testimonial-shapev4">
-								<img src={Icon5} alt="Icon" />
+								<Image src={Icon5} alt="Icon" />
 							</div>
 						</FadeInUp>
 					</div>

@@ -1,8 +1,8 @@
-import thumb1 from "../../../../assets/images/v3/thumb4.png";
-import thumb2 from "../../../../assets/images/v3/thumb5.png";
-import thumb3 from "../../../../assets/images/v3/thumb6.png";
+import thumb1 from "@/public/images/v3/thumb4.png";
+import thumb2 from "@/public/images/v3/thumb5.png";
+import thumb3 from "@/public/images/v3/thumb6.png";
 
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { Navigation } from "swiper/modules";
 import FadeInStagger from "../../../animation/FadeInStagger";
 import TestimonialCard from "./TestimonialCard";
@@ -63,7 +63,7 @@ function Testimonials() {
 					))}
 				</div>
 				<div className="sofax-testimonial-btn wow fadeInUpX">
-					<Link className="sofax-default-btn pill" data-text="See More Client’s Stories" to="/contact-us">
+					<Link className="sofax-default-btn pill" data-text="See More Client’s Stories" href="/contact-us">
 						<span className="button-wraper">See More Client’s Stories</span>
 					</Link>
 				</div>

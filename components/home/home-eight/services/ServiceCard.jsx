@@ -1,16 +1,17 @@
-import { Link } from "react-router-dom";
+import Image from "next/image";
+import Link from "next/link";
 
 function ServiceCard({ service: { icon, title, description } }) {
 	return (
 		<div>
 			<div className="sofax-features-iconv7">
-				<img src={icon} alt="icon" />
+				<Image src={icon} alt="icon" />
 			</div>
 			<div className="sofax-features-contentv7">
 				<h4>{title}</h4>
 				<p>{description}</p>
 			</div>
-			<Link to="/single-service">
+			<Link href="/single-service">
 				<div className="sofax-icon-btn  sofax-blog-icon-btn blog-versionv7 mt-30">
 					Read More
 					<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -1,9 +1,9 @@
-import AutoSlider from "../../components/common/auto-slider";
-import BreadCrumb from "../../components/common/Breadcrumb";
-import AboutOne from "../../components/home/home-five/about-one";
-import Faq from "../../components/home/home-five/faq";
-import Features from "../../components/home/home-five/features";
-import TeamMembers from "../../components/team-page/TeamMembers";
+import AutoSlider from "@/components/common/auto-slider";
+import BreadCrumb from "@/components/common/Breadcrumb";
+import AboutOne from "@/components/home/home-five/about-one";
+import Faq from "@/components/home/home-five/faq";
+import Features from "@/components/home/home-five/features";
+import TeamMembers from "@/components/team-page/TeamMembers";
 
 // Teams images
 

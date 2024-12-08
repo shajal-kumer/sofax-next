@@ -1,5 +1,6 @@
-import Icon from "../../../../assets/images/v3/Icon4.png";
-import Thumb2Img from "../../../../assets/images/v3/thumb2.png";
+import Icon from "@/public/images/v3/Icon4.png";
+import Thumb2Img from "@/public/images/v3/thumb2.png";
+import Image from "next/image";
 import FadeInLeft from "../../../animation/FadeInLeft";
 import TextSplitFadeIn from "../../../animation/TextSplitFadeIn";
 function AboutTwo() {
@@ -9,7 +10,7 @@ function AboutTwo() {
 				<div className="row">
 					<div className="col-lg-6">
 						<FadeInLeft className="sofax-content-thumb mr-80 box-shadow">
-							<img src={Thumb2Img} alt="Thumb2Img" />
+							<Image src={Thumb2Img} alt="Thumb2Img" />
 						</FadeInLeft>
 					</div>
 					<div className="col-lg-6">
@@ -27,11 +28,11 @@ function AboutTwo() {
 								<div className="sofax-list-icon-icon">
 									<ul>
 										<li>
-											<img src={Icon} alt="Icon" />
+											<Image src={Icon} alt="Icon" />
 											Regular team meetings
 										</li>
 										<li>
-											<img src={Icon} alt="Icon" />
+											<Image src={Icon} alt="Icon" />
 											Clear communication
 										</li>
 									</ul>
@@ -39,11 +40,11 @@ function AboutTwo() {
 								<div className="sofax-list-icon-icon">
 									<ul>
 										<li>
-											<img src={Icon} alt="Icon" />
+											<Image src={Icon} alt="Icon" />
 											Clear all project goals
 										</li>
 										<li>
-											<img src={Icon} alt="Icon" />
+											<Image src={Icon} alt="Icon" />
 											Collaborative workspace
 										</li>
 									</ul>

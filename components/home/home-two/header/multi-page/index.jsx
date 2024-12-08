@@ -1,6 +1,6 @@
-import DesktopMenu from "../../../../common/navigation/desktop-nav";
-import { menuItemsData } from "../../../../common/navigation/mobile-nav/menuItemsData";
-import MobileNavbar from "../../../../common/navigation/mobile-nav/MobileNavbar";
+import DesktopMenu from "@/components/common/navigation/desktop-nav";
+import { menuItemsData } from "@/components/common/navigation/mobile-nav/menuItemsData";
+import MobileNavbar from "@/components/common/navigation/mobile-nav/MobileNavbar";
 import HeaderButton from "../HeaderButton";
 import HeaderLogo from "../HeaderLogo";
 ("../../../../");
@@ -15,7 +15,7 @@ function Header() {
 						<DesktopMenu />
 					</div>
 					<HeaderButton />
-					<MobileNavbar menuItemsData={menuItemsData} title="Aximo" />
+					<MobileNavbar menuItemsData={menuItemsData} title="Sofax" />
 				</nav>
 			</div>
 		</header>

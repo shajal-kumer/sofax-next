@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import Icon from "../../../../assets/images/v1/icon8.png";
+import Icon from "@/public/images/v1/icon8.png";
+import Link from "next/link";
 function PricingCard({ pricing: { title, description, plan, price, features } }) {
 	return (
 		<div className="sofax-pricing-wrap pricing-wrapv10">
@@ -27,7 +27,7 @@ function PricingCard({ pricing: { title, description, plan, price, features } })
 				</ul>
 			</div>
 			<div className="sofax-pricing-footer">
-				<Link className="sofax-default-btn btn-hover d-block pill" to="/contact-us">
+				<Link className="sofax-default-btn btn-hover d-block pill" href="/contact-us">
 					Purchase now
 				</Link>
 			</div>

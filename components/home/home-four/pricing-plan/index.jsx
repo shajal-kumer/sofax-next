@@ -1,4 +1,5 @@
-import Icon4 from "../../../../assets/images/v4/icon4.png";
+import Icon4 from "@/public/images/v4/icon4.png";
+import Image from "next/image";
 import FadeInStagger from "../../../animation/FadeInStagger";
 import PricingCard from "./PricingCard";
 const pricingData = [
@@ -40,7 +41,7 @@ function PricingPlan() {
 					</div>
 				</div>
 				<div className="sofax-pricing-shapev4">
-					<img src={Icon4} alt="Icon" />
+					<Image src={Icon4} alt="Icon" />
 				</div>
 				<div className="row">
 					{pricingData.map((item, index) => (

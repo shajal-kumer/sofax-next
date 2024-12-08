@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import Shape from "../../../../assets/images/v10/shape1v10.png";
+import Shape from "@/public/images/v10/shape1v10.png";
+import Link from "next/link";
 import FadeInUp from "../../../animation/FadeInUp";
 function Cta() {
 	return (
@@ -14,7 +14,7 @@ function Cta() {
 						categories, including types of web hosting, key features, and popular providers.
 					</p>
 					<FadeInUp className="extra-mt">
-						<Link className="sofax-default-btn pill" data-text="Get Started For - Free" to="/sign-up">
+						<Link className="sofax-default-btn pill" data-text="Get Started For - Free" href="/sign-up">
 							<span className="button-wraper">Get Started For - Free</span>
 						</Link>
 						<span className="cta-bottom">Full access. No credit card needed.</span>

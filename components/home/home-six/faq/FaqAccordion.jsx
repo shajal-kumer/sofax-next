@@ -1,4 +1,5 @@
-import Icon from "../../../../assets/images/v2/icon9.png";
+import Icon from "@/public/images/v2/icon9.png";
+import Image from "next/image";
 function FaqAccordion() {
 	return (
 		<div className="sofax-accordion-section-wrapper">
@@ -14,7 +15,7 @@ function FaqAccordion() {
 							What everybody ought to knoe about digital?
 						</button>
 						<div className="accordion-icon">
-							<img src={Icon} alt="Icon" />
+							<Image src={Icon} alt="Icon" />
 						</div>
 					</h3>
 					<div
@@ -39,7 +40,7 @@ function FaqAccordion() {
 							How do you approach strategic planning?
 						</button>
 						<div className="accordion-icon">
-							<img src={Icon} alt="Icon" />
+							<Image src={Icon} alt="Icon" />
 						</div>
 					</h3>
 					<div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#sofax-accordion2">
@@ -60,7 +61,7 @@ function FaqAccordion() {
 							Is there a guaranteed result?
 						</button>
 						<div className="accordion-icon">
-							<img src={Icon} alt="Icon" />
+							<Image src={Icon} alt="Icon" />
 						</div>
 					</h3>
 					<div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#sofax-accordion2">
@@ -83,7 +84,7 @@ function FaqAccordion() {
 							What services does Sofax provide?
 						</button>
 						<div className="accordion-icon">
-							<img src={Icon} alt="Icon" />
+							<Image src={Icon} alt="Icon" />
 						</div>
 					</h3>
 					<div
@@ -108,7 +109,7 @@ function FaqAccordion() {
 							What services does Sofax provide?
 						</button>
 						<div className="accordion-icon">
-							<img src={Icon} alt="Icon" />
+							<Image src={Icon} alt="Icon" />
 						</div>
 					</h3>
 					<div id="collapseFive" className="accordion-collapse collapse" data-bs-parent="#sofax-accordion3">
@@ -129,7 +130,7 @@ function FaqAccordion() {
 							What is a strategic to block?
 						</button>
 						<div className="accordion-icon">
-							<img src={Icon} alt="Icon" />
+							<Image src={Icon} alt="Icon" />
 						</div>
 					</h3>
 					<div id="collapseSix" className="accordion-collapse collapse" data-bs-parent="#sofax-accordion3">

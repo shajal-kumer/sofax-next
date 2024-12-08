@@ -1,8 +1,9 @@
+"use client";
+import Thumb1Img from "@/public/images/v1/member1.png";
+import Thumb2Img from "@/public/images/v1/member2.png";
+import Thumb3Img from "@/public/images/v1/member3.png";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Thumb1Img from "../../../../assets/images/v1/member1.png";
-import Thumb2Img from "../../../../assets/images/v1/member2.png";
-import Thumb3Img from "../../../../assets/images/v1/member3.png";
 import TestimonialCard from "./TestimonialCard";
 //
 

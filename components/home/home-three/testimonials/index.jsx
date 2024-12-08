@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import FadeInStagger from "../../../animation/FadeInStagger";
 
-import Thumb4 from "../../../../assets/images/v3/thumb4.png";
-import Thumb5 from "../../../../assets/images/v3/thumb5.png";
-import Thumb6 from "../../../../assets/images/v3/thumb6.png";
+import Thumb4 from "@/public/images/v3/thumb4.png";
+import Thumb5 from "@/public/images/v3/thumb5.png";
+import Thumb6 from "@/public/images/v3/thumb6.png";
 import FadeInUp from "../../../animation/FadeInUp";
 import TestimonialCard from "./TestimonialCard";
 const testimonialData = [
@@ -57,7 +57,7 @@ function Testimonials() {
 				</div>
 
 				<FadeInUp className="sofax-testimonial-btn">
-					<Link className="sofax-default-btn pill" data-text="See More Client’s Stories" to="/contact-us">
+					<Link className="sofax-default-btn pill" data-text="See More Client’s Stories" href="/contact-us">
 						<span className="button-wraper">See More Client’s Stories</span>
 					</Link>
 				</FadeInUp>

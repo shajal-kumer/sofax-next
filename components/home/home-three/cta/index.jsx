@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import FadeInUp from "../../../animation/FadeInUp";
 
 function Cta() {
@@ -17,7 +17,7 @@ function Cta() {
 						<Link
 							className="sofax-default-btn pill dark-btn"
 							data-text="Get Started For - Free"
-							to="/contact-us"
+							href="/contact-us"
 						>
 							<span className="button-wraper">Get Started For - Free</span>
 						</Link>

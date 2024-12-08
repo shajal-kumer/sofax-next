@@ -1,5 +1,6 @@
+"use client";
+import Link from "next/link";
 import CountUp from "react-countup";
-import { Link } from "react-router-dom";
 import FadeInUp from "../../../animation/FadeInUp";
 function AboutOne() {
 	return (
@@ -21,7 +22,7 @@ function AboutOne() {
 							</p>
 						</div>
 						<FadeInUp className="sofax-title-btn extra-mt">
-							<Link className="sofax-default-btn pill" data-text="About Us" to="/contact-us">
+							<Link className="sofax-default-btn pill" data-text="About Us" href="/contact-us">
 								<span className="button-wraper">About Us</span>
 							</Link>
 						</FadeInUp>

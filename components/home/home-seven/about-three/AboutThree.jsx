@@ -1,5 +1,6 @@
-import Icon from "../../../../assets/images/v5/icon4.png";
-import Thumb from "../../../../assets/images/v7/image2v7.png";
+import Icon from "@/public/images/v5/icon4.png";
+import Thumb from "@/public/images/v7/image2v7.png";
+import Image from "next/image";
 import FadeInRight from "../../../animation/FadeInRight";
 function AboutThree() {
 	return (
@@ -8,7 +9,7 @@ function AboutThree() {
 				<div className="row">
 					<div className="col-lg-6 order-lg-2">
 						<FadeInRight className="about-thumbv5  ml-50">
-							<img src={Thumb} alt="Thumb" />
+							<Image src={Thumb} alt="Thumb" />
 						</FadeInRight>
 					</div>
 					<div className="col-lg-6">
@@ -23,7 +24,7 @@ function AboutThree() {
 							<div className="extra-mt">
 								<div className="sofax-content-iconbox-wrap content-v5">
 									<div className="sofax-iconbox-icon content-v5">
-										<img src={Icon} alt="Icon" />
+										<Image src={Icon} alt="Icon" />
 									</div>
 									<div className="sofax-iconbox-data content-v5">
 										<h4>24/7 customer support</h4>
@@ -31,7 +32,7 @@ function AboutThree() {
 								</div>
 								<div className="sofax-content-iconbox-wrap content-v5">
 									<div className="sofax-iconbox-icon content-v5">
-										<img src={Icon} alt="Icon" />
+										<Image src={Icon} alt="Icon" />
 									</div>
 									<div className="sofax-iconbox-data content-v5">
 										<h4>Real-time adjustments</h4>
@@ -39,7 +40,7 @@ function AboutThree() {
 								</div>
 								<div className="sofax-content-iconbox-wrap content-v5">
 									<div className="sofax-iconbox-icon content-v5">
-										<img src={Icon} alt="Icon" />
+										<Image src={Icon} alt="Icon" />
 									</div>
 									<div className="sofax-iconbox-data content-v5">
 										<h4>Chatbots & virtual assistants</h4>

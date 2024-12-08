@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
-import Shape from "../../../../assets/images/v1/shape4.png";
+import Shape from "@/public/images/v1/shape4.png";
+import Image from "next/image";
+import Link from "next/link";
 function Cta() {
 	return (
 		<section className="sofax-section-padding2 dark-bg light-color">
@@ -13,13 +14,13 @@ function Cta() {
 						place so you can easily focus on selling.
 					</p>
 					<div className="extra-mt wow fadeInUpX">
-						<Link className="sofax-default-btn pill" data-text="Create a free account" to="/sign-up">
+						<Link className="sofax-default-btn pill" data-text="Create a free account" href="/sign-up">
 							<span className="button-wraper">Create a free account</span>
 						</Link>
 						<span className="cta-bottom">Full access. No credit card needed.</span>
 					</div>
 					<div className="sofax-cta-shape">
-						<img src={Shape} alt="Shape" />
+						<Image src={Shape} alt="Shape" />
 					</div>
 				</div>
 			</div>

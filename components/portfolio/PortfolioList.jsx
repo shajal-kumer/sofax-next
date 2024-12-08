@@ -1,6 +1,6 @@
 import mixitup from "mixitup";
+import Link from "next/link";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import Icon from "../../assets/images/v5/icon5.png";
 import image1 from "../../assets/images/v5/image1.png";
 import image2 from "../../assets/images/v5/image2.png";
@@ -44,11 +44,11 @@ function PortfolioList() {
 					<div className="collection-grid-item mix col-md-6 business consultancy">
 						<div className="sofax-portfolio-content-wrap">
 							<div className="sofax-portfolio-thumb">
-								<Link to="/single-portfolio">
+								<Link href="/single-portfolio">
 									<img src={image1} alt="image" />
 								</Link>
 							</div>
-							<Link to="/single-portfolio">
+							<Link href="/single-portfolio">
 								<div className="sofax-portfolio-author-wrap">
 									<div className="sofax-portfolio-author-data">
 										<h4>Gradient Web Design</h4>
@@ -64,11 +64,11 @@ function PortfolioList() {
 					<div className="collection-grid-item mix col-md-6 development">
 						<div className="sofax-portfolio-content-wrap">
 							<div className="sofax-portfolio-thumb">
-								<Link to="/single-portfolio">
+								<Link href="/single-portfolio">
 									<img src={image2} alt="Image 2" />
 								</Link>
 							</div>
-							<Link to="/single-portfolio">
+							<Link href="/single-portfolio">
 								<div className="sofax-portfolio-author-wrap">
 									<div className="sofax-portfolio-author-data">
 										<h4>Mobile Web Design</h4>
@@ -84,11 +84,11 @@ function PortfolioList() {
 					<div className="collection-grid-item mix col-md-6 Security business consultancy">
 						<div className="sofax-portfolio-content-wrap">
 							<div className="sofax-portfolio-thumb">
-								<Link to="/single-portfolio">
+								<Link href="/single-portfolio">
 									<img src={image4} alt="image 4" />
 								</Link>
 							</div>
-							<Link to="/single-portfolio">
+							<Link href="/single-portfolio">
 								<div className="sofax-portfolio-author-wrap">
 									<div className="sofax-portfolio-author-data">
 										<h4>Responsive Web Design</h4>
@@ -104,11 +104,11 @@ function PortfolioList() {
 					<div className="collection-grid-item mix col-md-6 consultancy">
 						<div className="sofax-portfolio-content-wrap">
 							<div className="sofax-portfolio-thumb">
-								<Link to="/single-portfolio">
+								<Link href="/single-portfolio">
 									<img src={image3} alt="Image 3" />
 								</Link>
 							</div>
-							<Link to="/single-portfolio">
+							<Link href="/single-portfolio">
 								<div className="sofax-portfolio-author-wrap">
 									<div className="sofax-portfolio-author-data">
 										<h4>Smart Watch Design</h4>
@@ -124,11 +124,11 @@ function PortfolioList() {
 					<div className="collection-grid-item mix col-md-6 development security">
 						<div className="sofax-portfolio-content-wrap">
 							<div className="sofax-portfolio-thumb">
-								<Link to="/single-portfolio">
+								<Link href="/single-portfolio">
 									<img src={image1} alt="Image 1" />
 								</Link>
 							</div>
-							<Link to="/single-portfolio">
+							<Link href="/single-portfolio">
 								<div className="sofax-portfolio-author-wrap">
 									<div className="sofax-portfolio-author-data">
 										<h4>Gradient Web Design</h4>
@@ -144,11 +144,11 @@ function PortfolioList() {
 					<div className="collection-grid-item mix col-md-6 development security">
 						<div className="sofax-portfolio-content-wrap">
 							<div className="sofax-portfolio-thumb">
-								<Link to="/single-portfolio">
+								<Link href="/single-portfolio">
 									<img src={image2} alt="Iamge 2" />
 								</Link>
 							</div>
-							<Link to="/single-portfolio">
+							<Link href="/single-portfolio">
 								<div className="sofax-portfolio-author-wrap">
 									<div className="sofax-portfolio-author-data">
 										<h4>Website SEO Ranking</h4>

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import thumb1 from "../../../assets/images/blog/thumb1.png";
 import thumb2 from "../../../assets/images/blog/thumb2.png";
 
@@ -51,7 +51,7 @@ function CommentList() {
 									<div className="sofax-post-comment-text">
 										<ul>
 											<li>
-												<Link to="/blog">Reply</Link>
+												<Link href="/blog">Reply</Link>
 											</li>
 										</ul>
 									</div>

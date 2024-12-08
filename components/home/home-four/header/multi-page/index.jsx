@@ -1,6 +1,6 @@
-import DesktopMenu from "../../../../common/navigation/desktop-nav";
-import MobileNavbar from "../../../../common/navigation/mobile-nav/MobileNavbar";
-import { menuItemsData } from "../../../../common/navigation/mobile-nav/menuItemsData";
+import DesktopMenu from "@/components/common/navigation/desktop-nav";
+import MobileNavbar from "@/components/common/navigation/mobile-nav/MobileNavbar";
+import { menuItemsData } from "@/components/common/navigation/mobile-nav/menuItemsData";
 import HeaderButton from "../HeaderButton";
 import HeaderLogo from "../HeaderLogo";
 function Header() {

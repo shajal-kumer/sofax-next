@@ -1,8 +1,10 @@
+"use client";
+import Image1 from "@/public/images/v9/thumb1v9.png";
+import PlayBtn from "@/public/images/v9/videoplay2.png";
+import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
-import { Link } from "react-router-dom";
-import Image1 from "../../../../assets/images/v9/thumb1v9.png";
-import PlayBtn from "../../../../assets/images/v9/videoplay2.png";
 import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "../../../animation/FadeInStaggerTwo";
 import FadeInUp from "../../../animation/FadeInUp";
 import HeroContent from "./HeroContent";
@@ -23,7 +25,7 @@ function Hero() {
 				/>
 				<FadeInStaggerTwo className="sofax-hero-btn-wrap extra-mt">
 					<FadeInStaggerTwoChildren>
-						<Link className="sofax-default-btn pill" data-text="Get Started" to="/contact-us">
+						<Link className="sofax-default-btn pill" data-text="Get Started" href="/contact-us">
 							<span className="button-wraper">Get Started</span>
 						</Link>
 					</FadeInStaggerTwoChildren>
@@ -32,13 +34,13 @@ function Hero() {
 							className="sofax-default-btn outline-btn pill sofax-popup-video videov9 video-init"
 							onClick={() => setOpen(true)}
 						>
-							<img src={PlayBtn} alt="Play btn" />
+							<Image src={PlayBtn} alt="Play btn" />
 							Watch A Demo
 						</button>
 					</FadeInStaggerTwoChildren>
 				</FadeInStaggerTwo>
 				<FadeInUp className="hero9-thumb">
-					<img src={Image1} alt="Thumb" />
+					<Image src={Image1} alt="Thumb" />
 				</FadeInUp>
 			</div>
 		</div>

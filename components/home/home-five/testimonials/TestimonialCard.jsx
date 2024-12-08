@@ -1,4 +1,5 @@
-import RatingFull from "../../../../assets/images/v2/yellowstart.svg";
+import RatingFull from "@/public/images/v2/yellowstart.svg";
+import Image from "next/image";
 
 function TestimonialCard({
 	testimonial: {
@@ -13,7 +14,7 @@ function TestimonialCard({
 				<ul>
 					{[...Array(rating)].map(() => (
 						<li key={crypto.randomUUID()}>
-							<img src={RatingFull} alt="Rating" />
+							<Image src={RatingFull} alt="Rating" />
 						</li>
 					))}
 				</ul>
@@ -23,7 +24,7 @@ function TestimonialCard({
 			</div>
 			<div className="sofax-testimonial-slider-authore-wrap">
 				<div className="sofax-testimonial-slider-authore-member-img">
-					<img src={image} alt="author image" />
+					<Image src={image} alt="author image" />
 				</div>
 				<div className="sofax-testimonial-slider-authore-member-data">
 					<h5>{name}</h5>

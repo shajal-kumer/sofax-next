@@ -1,11 +1,12 @@
-import { Link } from "react-router-dom";
-import Card from "../../../../assets/images/v1/card.png";
-import CheckCircle from "../../../../assets/images/v1/check-circle.png";
-import Contentimg2 from "../../../../assets/images/v1/contentimg2.png";
-import ContentThumb from "../../../../assets/images/v1/contentthumb1.png";
-import Icon4 from "../../../../assets/images/v1/icon4.png";
-import Icon9 from "../../../../assets/images/v1/icon9.png";
-import Shape3 from "../../../../assets/images/v1/shape3.png";
+import Card from "@/public/images/v1/card.png";
+import CheckCircle from "@/public/images/v1/check-circle.png";
+import Contentimg2 from "@/public/images/v1/contentimg2.png";
+import ContentThumb from "@/public/images/v1/contentthumb1.png";
+import Icon4 from "@/public/images/v1/icon4.png";
+import Icon9 from "@/public/images/v1/icon9.png";
+import Shape3 from "@/public/images/v1/shape3.png";
+import Image from "next/image";
+import Link from "next/link";
 import FadeInLeft from "../../../animation/FadeInLeft";
 import FadeInRight from "../../../animation/FadeInRight";
 import FadeInUp from "../../../animation/FadeInUp";
@@ -16,9 +17,9 @@ function WhyChooseUs() {
 				<div className="row">
 					<div className="col-lg-5">
 						<FadeInLeft className="sofax-content-img box-shadow mb-130">
-							<img src={ContentThumb} alt="ContentThumb" />
+							<Image src={ContentThumb} alt="ContentThumb" />
 							<div className="sofax-card-shape">
-								<img src={Card} alt="Card" />
+								<Image src={Card} alt="Card" />
 							</div>
 						</FadeInLeft>
 					</div>
@@ -34,7 +35,7 @@ function WhyChooseUs() {
 							<div className="extra-mt">
 								<div className="sofax-iconbox-wrap2">
 									<div className="sofax-iconbox-icon2">
-										<img src={CheckCircle} alt="check" />
+										<Image src={CheckCircle} alt="check" />
 									</div>
 									<div className="sofax-iconbox-data2">
 										<h4>Streamline processes</h4>
@@ -46,7 +47,7 @@ function WhyChooseUs() {
 								</div>
 								<div className="sofax-iconbox-wrap2">
 									<div className="sofax-iconbox-icon2">
-										<img src={CheckCircle} alt="check" />
+										<Image src={CheckCircle} alt="check" />
 									</div>
 									<div className="sofax-iconbox-data2">
 										<h4>Understand your audience</h4>
@@ -58,7 +59,7 @@ function WhyChooseUs() {
 								</div>
 								<div className="sofax-iconbox-wrap2">
 									<div className="sofax-iconbox-icon2">
-										<img src={CheckCircle} alt="check" />
+										<Image src={CheckCircle} alt="check" />
 									</div>
 									<div className="sofax-iconbox-data2">
 										<h4>Utilize customer data</h4>
@@ -77,9 +78,9 @@ function WhyChooseUs() {
 				<div className="row">
 					<div className="col-lg-5 order-lg-2">
 						<FadeInRight className="sofax-content-img2 position-ralatiove ml-31">
-							<img src={Contentimg2} alt="Thumbs" />
+							<Image src={Contentimg2} alt="Thumbs" />
 							<div className="sofax-content-shape-v1">
-								<img src={Shape3} alt="shape" />
+								<Image src={Shape3} alt="shape" />
 							</div>
 						</FadeInRight>
 					</div>
@@ -95,7 +96,7 @@ function WhyChooseUs() {
 							<div className="extra-mt">
 								<div className="sofax-iconbox-wrap2">
 									<div className="sofax-iconbox-icon2">
-										<img src={Icon9} alt="icon" />
+										<Image src={Icon9} alt="icon" />
 									</div>
 									<div className="sofax-iconbox-data2">
 										<h4>Time saved in closing deals</h4>
@@ -107,7 +108,7 @@ function WhyChooseUs() {
 								</div>
 								<div className="sofax-iconbox-wrap2">
 									<div className="sofax-iconbox-icon2">
-										<img src={Icon4} alt="icon" />
+										<Image src={Icon4} alt="icon" />
 									</div>
 									<div className="sofax-iconbox-data2">
 										<h4>Quick access of data & communication</h4>
@@ -119,12 +120,12 @@ function WhyChooseUs() {
 								</div>
 							</div>
 							<FadeInUp className="extra-mt">
-								<Link className="sofax-default-btn pill" data-text="Get started" hrtoef="/contact-us">
+								<Link className="sofax-default-btn pill" data-text="Get started" href="/contact-us">
 									<span className="button-wraper">Get started</span>
 								</Link>
 							</FadeInUp>
 							<div className="sofax-content-shape-v1">
-								<img src={Shape3} alt="shape" />
+								<Image src={Shape3} alt="shape" />
 							</div>
 						</div>
 					</div>

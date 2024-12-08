@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
-import Icon10 from "../../../../assets/images/v1/icon10.png";
+import Icon10 from "@/public/images/v1/icon10.png";
+import Image from "next/image";
+import Link from "next/link";
 import FadeInUp from "../../../animation/FadeInUp";
 
 function Integrations() {
@@ -9,7 +10,7 @@ function Integrations() {
 				<div className="row">
 					<div className="col-lg-6">
 						<FadeInUp className="integration-social-icon">
-							<img src={Icon10} alt="Icon" />
+							<Image src={Icon10} alt="Icon" />
 						</FadeInUp>
 					</div>
 					<div className="col-lg-6">
@@ -25,7 +26,7 @@ function Integrations() {
 								<Link
 									className="sofax-default-btn pill"
 									data-text="View all integrations"
-									to="/contact-us"
+									href="/contact-us"
 								>
 									<span className="button-wraper">View all integrations </span>
 								</Link>

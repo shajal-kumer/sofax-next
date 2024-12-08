@@ -375,7 +375,7 @@ bodt {
 	font-style: normal;
 	letter-spacing: normal;
 	position: relative;
-	font-family: "DM Sans", sans-serif;
+	font-family: var(--font-DM-Sans), sans-serif;
 }
 
 .sofax-header1 .site-menu-main .nav-link-item {

@@ -1,6 +1,7 @@
-import Thumb2Img from "../../../../assets/images/v2/t-thumb2.png";
-import Thumb3Img from "../../../../assets/images/v2/t-thumb3.png";
-import Thumb1Img from "../../../../assets/images/v2/textimonialthumb.png";
+"use client";
+import Thumb2Img from "@/public/images/v2/t-thumb2.png";
+import Thumb3Img from "@/public/images/v2/t-thumb3.png";
+import Thumb1Img from "@/public/images/v2/textimonialthumb.png";
 
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";

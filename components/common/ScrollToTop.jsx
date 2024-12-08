@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useState } from "react";
 import ArrowTop from "../../assets/images/arrowtop.png";
 export default function ScrollToTop() {

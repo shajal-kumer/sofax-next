@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "../../../animation/FadeInStaggerTwo";
 
 function HeroContent() {
@@ -13,12 +13,12 @@ function HeroContent() {
 			</p>
 			<FadeInStaggerTwo className="sofax-hero-btn-wrap sofax-hero5-btn extra-mt">
 				<FadeInStaggerTwoChildren>
-					<Link className="sofax-default-btn pill" data-text="Explore More" to="/contact-us">
+					<Link className="sofax-default-btn pill" data-text="Explore More" href="/contact-us">
 						<span className="button-wraper">Explore More</span>
 					</Link>
 				</FadeInStaggerTwoChildren>
 				<FadeInStaggerTwoChildren>
-					<Link className="sofax-default-btn pill dark-btn" data-text="Contact Us" to="/service">
+					<Link className="sofax-default-btn pill dark-btn" data-text="Contact Us" href="/service">
 						<span className="button-wraper">Contact Us</span>
 					</Link>
 				</FadeInStaggerTwoChildren>

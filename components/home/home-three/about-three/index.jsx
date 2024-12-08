@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
-import Thumb from "../../../../assets/images/v3/thumb3.png";
+import Thumb from "@/public/images/v3/thumb3.png";
+import Image from "next/image";
+import Link from "next/link";
 import FadeInRight from "../../../animation/FadeInRight";
 import FadeInUp from "../../../animation/FadeInUp";
 function AboutThree() {
@@ -9,7 +10,7 @@ function AboutThree() {
 				<div className="row">
 					<div className="col-lg-6 order-lg-2">
 						<FadeInRight className="sofax-content-img ml-70 box-shadow">
-							<img src={Thumb} alt="Thumb" />
+							<Image src={Thumb} alt="Thumb" />
 						</FadeInRight>
 					</div>
 					<div className="col-lg-6">
@@ -28,7 +29,7 @@ function AboutThree() {
 							</p>
 						</div>
 						<FadeInUp className="sofax-title-btn extra-mt">
-							<Link className="sofax-default-btn pill" data-text="Learn More" to="/contact-us">
+							<Link className="sofax-default-btn pill" data-text="Learn More" href="/contact-us">
 								<span className="button-wraper">Learn More</span>
 							</Link>
 						</FadeInUp>

@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
-import Icon from "../../../../assets/images/v1/icon8.png";
+import Icon from "@/public/images/v1/icon8.png";
+import Image from "next/image";
+import Link from "next/link";
 function PricingCard({ item: { plan, price, features, active } }) {
 	return (
 		<div className="sofax-pricing-wrap">
@@ -13,7 +14,7 @@ function PricingCard({ item: { plan, price, features, active } }) {
 			<div className="sofax-pricing-footer mb-40">
 				<Link
 					className={`sofax-default-btn d-block pill  pricing-btn-v4 ${!active && "dark-btn"}`}
-					to="/pricing"
+					href="/pricing"
 				>
 					Choose Plan
 				</Link>
@@ -22,7 +23,7 @@ function PricingCard({ item: { plan, price, features, active } }) {
 				<ul>
 					{features.map((feature) => (
 						<li key={feature}>
-							<img src={Icon} alt="Icon" />
+							<Image src={Icon} alt="Icon" />
 							{feature}
 						</li>
 					))}

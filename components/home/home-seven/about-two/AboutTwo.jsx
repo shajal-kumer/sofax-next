@@ -1,6 +1,7 @@
-import IconArrow from "../../../../assets/images/v2/icon9.png";
-import IconCheck from "../../../../assets/images/v7/icon5v6.png";
-import Thumb from "../../../../assets/images/v7/image1v7.png";
+import IconArrow from "@/public/images/v2/icon9.png";
+import IconCheck from "@/public/images/v7/icon5v6.png";
+import Thumb from "@/public/images/v7/image1v7.png";
+import Image from "next/image";
 import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "../../../animation/FadeInStaggerTwo";
 import FadeInUp from "../../../animation/FadeInUp";
 function AboutTwo() {
@@ -10,7 +11,7 @@ function AboutTwo() {
 				<div className="row">
 					<div className="col-lg-6">
 						<FadeInUp className="about-thumb mr-50 ">
-							<img src={Thumb} alt="Thumb" />
+							<Image src={Thumb} alt="Thumb" />
 						</FadeInUp>
 					</div>
 					<div className="col-lg-6">
@@ -29,7 +30,7 @@ function AboutTwo() {
 								>
 									<FadeInStaggerTwoChildren className="accordion-item sofax-accordion-item">
 										<h3 className="accordion-header sofax-accordion-header">
-											<img src={IconCheck} alt="Check Icon" />
+											<Image src={IconCheck} alt="Check Icon" />
 
 											<button
 												className="accordion-button"
@@ -40,7 +41,7 @@ function AboutTwo() {
 												Ethical AI practics
 											</button>
 											<div className="accordion-icon">
-												<img src={IconArrow} alt="Icon" />
+												<Image src={IconArrow} alt="Icon" />
 											</div>
 										</h3>
 										<div
@@ -56,7 +57,7 @@ function AboutTwo() {
 									</FadeInStaggerTwoChildren>
 									<FadeInStaggerTwoChildren className="accordion-item sofax-accordion-item">
 										<h3 className="accordion-header sofax-accordion-header" id="headingOne">
-											<img src={IconCheck} alt="Check Icon" />
+											<Image src={IconCheck} alt="Check Icon" />
 
 											<button
 												className="accordion-button"
@@ -67,7 +68,7 @@ function AboutTwo() {
 												Cutting - edge research
 											</button>
 											<div className="accordion-icon">
-												<img src={IconArrow} alt="Icon" />
+												<Image src={IconArrow} alt="Icon" />
 											</div>
 										</h3>
 										<div
@@ -83,7 +84,7 @@ function AboutTwo() {
 									</FadeInStaggerTwoChildren>
 									<FadeInStaggerTwoChildren className="accordion-item sofax-accordion-item">
 										<h3 className="accordion-header sofax-accordion-header">
-											<img src={IconCheck} alt="Check Icon" />
+											<Image src={IconCheck} alt="Check Icon" />
 
 											<button
 												className="accordion-button collapsed"
@@ -94,7 +95,7 @@ function AboutTwo() {
 												Collaborative ecosystem
 											</button>
 											<div className="accordion-icon">
-												<img src={IconArrow} alt="Icon" />
+												<Image src={IconArrow} alt="Icon" />
 											</div>
 										</h3>
 										<div

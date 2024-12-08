@@ -1,9 +1,11 @@
-import { Link } from "react-router-dom";
+"use client";
+import Link from "next/link";
 import CopyRight from "./CopyRight";
 
+import Logo from "@/public/images/logo/logo-white.svg";
+import Image from "next/image";
 import { useForm } from "react-hook-form";
 import { toast, ToastContainer } from "react-toastify";
-import Logo from "../../../../assets/images/logo/logo-white.svg";
 import Field from "../../../common/Field";
 
 function Footer() {
@@ -26,8 +28,8 @@ function Footer() {
 					<div className="row">
 						<div className="col-xl-4 col-md-12">
 							<div className="sofax-footer-wrap mr-15 light-color">
-								<Link to="/muti-page/home-two">
-									<img src={Logo} alt="Logo" />
+								<Link href="/muti-page/home-two">
+									<Image src={Logo} alt="Logo" />
 								</Link>
 								<p>
 									Sofax is best softwere platform manage your sales depends on your specific business
@@ -124,16 +126,16 @@ function Footer() {
 								<h5>Company</h5>
 								<ul>
 									<li>
-										<Link to="/about-us">About Us</Link>
+										<Link href="/about-us">About Us</Link>
 									</li>
 									<li>
-										<Link to="/contact-us">Contact US</Link>
+										<Link href="/contact-us">Contact US</Link>
 									</li>
 									<li>
-										<Link to="/contact-us">Privacy Policy</Link>
+										<Link href="/contact-us">Privacy Policy</Link>
 									</li>
 									<li>
-										<Link to="/terms-and-condition">Terms & Conditions</Link>
+										<Link href="/terms-and-condition">Terms & Conditions</Link>
 									</li>
 								</ul>
 							</div>
@@ -143,16 +145,16 @@ function Footer() {
 								<h5>Utility pages</h5>
 								<ul>
 									<li>
-										<Link to="/contact-us">Instructions</Link>
+										<Link href="/contact-us">Instructions</Link>
 									</li>
 									<li>
-										<Link to="/contact-us">Style guide</Link>
+										<Link href="/contact-us">Style guide</Link>
 									</li>
 									<li>
-										<Link to="/404">404 Pages</Link>
+										<Link href="/404">404 Pages</Link>
 									</li>
 									<li>
-										<Link to="/contact-us">Licenses</Link>
+										<Link href="/contact-us">Licenses</Link>
 									</li>
 								</ul>
 							</div>

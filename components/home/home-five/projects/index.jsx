@@ -1,9 +1,10 @@
+"use client";
+import image1 from "@/public/images/v5/image1.png";
+import image2 from "@/public/images/v5/image2.png";
+import image3 from "@/public/images/v5/image3.png";
+import image4 from "@/public/images/v5/image4.png";
+import Link from "next/link";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
-import { Link } from "react-router-dom";
-import image1 from "../../../../assets/images/v5/image1.png";
-import image2 from "../../../../assets/images/v5/image2.png";
-import image3 from "../../../../assets/images/v5/image3.png";
-import image4 from "../../../../assets/images/v5/image4.png";
 import FadeInStagger from "../../../animation/FadeInStagger";
 import FadeInUp from "../../../animation/FadeInUp";
 import ProjectCard from "./projectCard";
@@ -55,7 +56,7 @@ function Projects() {
 				</ResponsiveMasonry>
 
 				<FadeInUp className="sofax-portfolio-btn">
-					<Link className="sofax-default-btn pill" data-text="View All Projects" to="/single-portfolio">
+					<Link className="sofax-default-btn pill" data-text="View All Projects" href="/single-portfolio">
 						<span className="button-wraper">View All Projects</span>
 					</Link>
 				</FadeInUp>

@@ -2,7 +2,7 @@ import image1 from "../../assets/images/blog/blogthumb4.png";
 import image2 from "../../assets/images/blog/blogthumb5.png";
 import image3 from "../../assets/images/blog/blogthumb6.png";
 
-import { Link } from "react-router-dom";
+import Link from "next/link";
 const recentPostData = [
 	{
 		id: 1,
@@ -28,7 +28,7 @@ function RecentPosts() {
 		<div className="sofax-subscription-field-post">
 			<h4>Recent Posts:</h4>
 			{recentPostData.map((post) => (
-				<Link to="/single-blog" key={post.id}>
+				<Link href="/single-blog" key={post.id}>
 					<div className="title-post-thumb">
 						<div className="title-post-img">
 							<img src={post.image} alt="blog post image" />

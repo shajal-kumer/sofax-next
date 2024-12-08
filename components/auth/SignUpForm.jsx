@@ -1,5 +1,5 @@
+import Link from "next/link";
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import Icon from "../../assets/images/contact/icon5.png";
 import Field from "../common/Field";
@@ -74,7 +74,7 @@ function SignUpForm() {
 							</button>
 							<div className="login">
 								<span>Have an account?</span>
-								<Link to="/sign-in">
+								<Link href="/sign-in">
 									<h4>Log In</h4>
 								</Link>
 							</div>

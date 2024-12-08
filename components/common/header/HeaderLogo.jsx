@@ -6,7 +6,7 @@ function HeaderLogo() {
 
 	return (
 		<div className="brand-logo">
-			<Link to="/">
+			<Link href="/">
 				<img src={location.pathname !== "/" ? LogoLight : LogoDark} alt="Logo" />
 			</Link>
 		</div>

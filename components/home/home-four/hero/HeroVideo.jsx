@@ -1,7 +1,8 @@
+"use client";
+import CirclePlayImg from "@/public/images/v4/circle-play.png";
+import PlayIconImg from "@/public/images/v4/play-icon.svg";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
-import CirclePlayImg from "../../../../assets/images/v4/circle-play.png";
-import PlayIconImg from "../../../../assets/images/v4/play-icon.svg";
 function HeroVideo() {
 	const [isOpen, setOpen] = useState(false);
 

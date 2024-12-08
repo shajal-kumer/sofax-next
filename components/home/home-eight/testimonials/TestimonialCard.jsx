@@ -1,4 +1,5 @@
-import Rating from "../../../../assets/images/v8/yellow-ratting.png";
+import Rating from "@/public/images/v8/yellow-ratting.png";
+import Image from "next/image";
 
 function TestimonialCard({
 	testimonial: {
@@ -11,7 +12,7 @@ function TestimonialCard({
 	return (
 		<div className="sofax-iconbox-wrap">
 			<div className="sofax-iconbox-icon">
-				<img src={image} alt="icons" />
+				<Image src={image} alt="icons" />
 			</div>
 			<div className="sofax-iconbox-data testimonial-vr8">
 				<p>{review}</p>
@@ -25,7 +26,7 @@ function TestimonialCard({
 					<ul>
 						{[...Array(rating)].map(() => (
 							<li key={crypto.randomUUID()}>
-								<img src={Rating} alt="Rating" />
+								<Image src={Rating} alt="Rating" />
 							</li>
 						))}
 					</ul>

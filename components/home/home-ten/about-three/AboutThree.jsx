@@ -1,5 +1,5 @@
-import Thumb from "../../../../assets/images/v10/thumb4v10.png";
-import Icon from "../../../../assets/images/v2/icon9.png";
+import Thumb from "@/public/images/v10/thumb4v10.png";
+import Icon from "@/public/images/v2/icon9.png";
 import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "../../../animation/FadeInStaggerTwo";
 import FadeInUp from "../../../animation/FadeInUp";
 function AboutThree() {

@@ -1,11 +1,13 @@
+"use client";
+import Alterbone from "@/public/images/v2/1.png";
+import Carbonia from "@/public/images/v2/2.png";
+import Logoipsum from "@/public/images/v2/3.png";
+import Tinygone from "@/public/images/v2/4.png";
+import Waverio from "@/public/images/v2/5.png";
+import Six from "@/public/images/v2/6.png";
+import Image from "next/image";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Alterbone from "../../../../assets/images/v2/1.png";
-import Carbonia from "../../../../assets/images/v2/2.png";
-import Logoipsum from "../../../../assets/images/v2/3.png";
-import Tinygone from "../../../../assets/images/v2/4.png";
-import Waverio from "../../../../assets/images/v2/5.png";
-import Six from "../../../../assets/images/v2/6.png";
 
 const sliderData = [
 	{
@@ -113,7 +115,7 @@ function LogoSlider() {
 							<SwiperSlide key={item.id}>
 								<div className="sofax-text-slider-wrap">
 									<div className="sofax-text-slider-icon">
-										<img src={item.img} alt={item.title} />
+										<Image src={item.img} alt={item.title} />
 									</div>
 
 									<div className="sofax-text-slider-data light-color">

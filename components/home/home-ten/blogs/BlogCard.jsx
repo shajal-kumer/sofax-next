@@ -1,15 +1,15 @@
-import { Link } from "react-router-dom";
-import Icon1 from "../../../../assets/images/v9/icon7v9.png";
-import Icon2 from "../../../../assets/images/v9/icon8v9.png";
+import Icon1 from "@/public/images/v9/icon7v9.png";
+import Icon2 from "@/public/images/v9/icon8v9.png";
+import Link from "next/link";
 function BlogCard({ blog: { image, date, title, description, category } }) {
 	return (
 		<div className="sofax-blog-wrap-v4  sofax-blog-wrap-v9">
 			<div className="sofax-blog-img">
-				<Link to="/single-blog">
+				<Link href="/single-blog">
 					<img src={image} alt="blog image" />
 				</Link>
 			</div>
-			<Link to="/single-blog">
+			<Link href="/single-blog">
 				<div className="sofax-blog-contentv9 blog-v7">
 					<div className="sofax-blog-metav9 ">
 						<div className="blog-btn-icon-wrap">

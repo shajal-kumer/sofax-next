@@ -1,3 +1,4 @@
+"use client";
 import { SplitText } from "@cyriacbr/react-split-text";
 import { motion } from "framer-motion";
 import { memo } from "react";

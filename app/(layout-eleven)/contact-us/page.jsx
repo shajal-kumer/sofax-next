@@ -1,6 +1,6 @@
-import BreadCrumb from "../../components/common/Breadcrumb";
-import Contact from "../../components/contact-us-page";
-import MyMap from "../../components/contact-us-page/MyMap";
+import BreadCrumb from "@/components/common/Breadcrumb";
+import Contact from "@/components/contact-us-page";
+import MyMap from "@/components/contact-us-page/MyMap";
 
 function ContactUs() {
 	return (

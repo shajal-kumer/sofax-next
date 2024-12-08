@@ -1,5 +1,6 @@
-import Thumb from "../../../../assets/images/v2/contentthumb2.png";
-import Icon from "../../../../assets/images/v2/icon9.png";
+import Thumb from "@/public/images/v2/contentthumb2.png";
+import Icon from "@/public/images/v2/icon9.png";
+import Image from "next/image";
 import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "../../../animation/FadeInStaggerTwo";
 import FadeInUp from "../../../animation/FadeInUp";
 import TextSplitFadeIn from "../../../animation/TextSplitFadeIn";
@@ -10,7 +11,7 @@ function WhyChooseUs() {
 				<div className="row">
 					<div className="col-lg-5">
 						<FadeInUp className="about-thumb mr-50 ">
-							<img src={Thumb} alt="Thumb" />
+							<Image src={Thumb} alt="Thumb" />
 						</FadeInUp>
 					</div>
 					<div className="col-lg-7">
@@ -37,7 +38,7 @@ function WhyChooseUs() {
 												1. Download and create an account easily
 											</button>
 											<div className="accordion-icon">
-												<img src={Icon} alt="Icon" />
+												<Image src={Icon} alt="Icon" />
 											</div>
 										</h3>
 										<div
@@ -62,7 +63,7 @@ function WhyChooseUs() {
 												2. Link your bank account & make a payment
 											</button>
 											<div className="accordion-icon">
-												<img src={Icon} alt="Icon" />
+												<Image src={Icon} alt="Icon" />
 											</div>
 										</h3>
 										<div
@@ -87,7 +88,7 @@ function WhyChooseUs() {
 												3. Start buying & selling crypto as you wish
 											</button>
 											<div className="accordion-icon">
-												<img src={Icon} alt="Icon" />
+												<Image src={Icon} alt="Icon" />
 											</div>
 										</h3>
 										<div

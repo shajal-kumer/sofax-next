@@ -1,7 +1,8 @@
-import Thumb2 from "../../../../assets/images/v2/contentthumb2.png";
-import Icon6 from "../../../../assets/images/v2/icon6.png";
-import Icon7 from "../../../../assets/images/v2/icon7.png";
-import Icon8 from "../../../../assets/images/v2/icon8.png";
+import Thumb2 from "@/public/images/v2/contentthumb2.png";
+import Icon6 from "@/public/images/v2/icon6.png";
+import Icon7 from "@/public/images/v2/icon7.png";
+import Icon8 from "@/public/images/v2/icon8.png";
+import Image from "next/image";
 import FadeInRight from "../../../animation/FadeInRight";
 import TextSplitFadeIn from "../../../animation/TextSplitFadeIn";
 function AboutOne() {
@@ -11,7 +12,7 @@ function AboutOne() {
 				<div className="row">
 					<div className="col-lg-5 order-lg-2">
 						<FadeInRight className="about-thumb ml-50">
-							<img src={Thumb2} alt="Thumb2" />
+							<Image src={Thumb2} alt="Thumb2" />
 						</FadeInRight>
 					</div>
 					<div className="col-lg-7">
@@ -28,7 +29,7 @@ function AboutOne() {
 							<div className="extra-mt">
 								<div className="sofax-content-iconbox-wrap">
 									<div className="sofax-iconbox-icon">
-										<img src={Icon6} alt="Icon6" />
+										<Image src={Icon6} alt="Icon6" />
 									</div>
 									<div className="sofax-iconbox-data">
 										<h4>Largest public crypto app</h4>
@@ -40,7 +41,7 @@ function AboutOne() {
 								</div>
 								<div className="sofax-content-iconbox-wrap">
 									<div className="sofax-iconbox-icon">
-										<img src={Icon7} alt="Icon" />
+										<Image src={Icon7} alt="Icon" />
 									</div>
 									<div className="sofax-iconbox-data">
 										<h4>Your assets are protected</h4>
@@ -52,7 +53,7 @@ function AboutOne() {
 								</div>
 								<div className="sofax-content-iconbox-wrap">
 									<div className="sofax-iconbox-icon">
-										<img src={Icon8} alt="Icon" />
+										<Image src={Icon8} alt="Icon" />
 									</div>
 									<div className="sofax-iconbox-data">
 										<h4>Get the help you need when you need it</h4>

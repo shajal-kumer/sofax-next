@@ -1,8 +1,9 @@
-import Icon1 from "../../../../assets/images/v2/icon1.png";
-import Icon2 from "../../../../assets/images/v2/icon2.png";
-import Icon4 from "../../../../assets/images/v2/icon4.png";
-import Icon5 from "../../../../assets/images/v2/icon5.png";
-import Phone from "../../../../assets/images/v2/phone.png";
+import Icon1 from "@/public/images/v2/icon1.png";
+import Icon2 from "@/public/images/v2/icon2.png";
+import Icon4 from "@/public/images/v2/icon4.png";
+import Icon5 from "@/public/images/v2/icon5.png";
+import Phone from "@/public/images/v2/phone.png";
+import Image from "next/image";
 import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "../../../animation/FadeInStaggerTwo";
 import FadeInUp from "../../../animation/FadeInUp";
 import TextSplitFadeIn from "../../../animation/TextSplitFadeIn";
@@ -23,7 +24,7 @@ function Features() {
 						<FadeInStaggerTwo className="col-lg-4 col-md-12">
 							<FadeInStaggerTwoChildren className="sofax-features-box">
 								<div className="sofax-features-icon">
-									<img src={Icon1} alt="features" />
+									<Image src={Icon1} alt="features" />
 								</div>
 								<div className="sofax-features-content">
 									<h4>Send & Receive</h4>
@@ -35,7 +36,7 @@ function Features() {
 							</FadeInStaggerTwoChildren>
 							<FadeInStaggerTwoChildren className="sofax-features-box">
 								<div className="sofax-features-icon">
-									<img src={Icon2} alt="Feature" />
+									<Image src={Icon2} alt="Feature" />
 								</div>
 								<div className="sofax-features-content">
 									<h4>100% Secure Wallet</h4>
@@ -49,7 +50,7 @@ function Features() {
 						<div className="col-lg-4 col-md-12">
 							<FadeInUp className="sofax-features-box features-v2 position-relative">
 								<div className="sofax-features-icon">
-									<img src={Icon5} alt="Features Icon" />
+									<Image src={Icon5} alt="Features Icon" />
 								</div>
 								<div className="sofax-features-content">
 									<h4>IOS & Android App</h4>
@@ -59,14 +60,14 @@ function Features() {
 									</p>
 								</div>
 								<div className="sofax-features-thumb">
-									<img src={Phone} alt="Phone" />
+									<Image src={Phone} alt="Phone" />
 								</div>
 							</FadeInUp>
 						</div>
 						<FadeInStaggerTwo className="col-lg-4 col-md-12">
 							<FadeInStaggerTwoChildren className="sofax-features-box">
 								<div className="sofax-features-icon">
-									<img src={Icon4} alt="Feature Ion" />
+									<Image src={Icon4} alt="Feature Ion" />
 								</div>
 								<div className="sofax-features-content">
 									<h4>Tranding Charts</h4>
@@ -78,7 +79,7 @@ function Features() {
 							</FadeInStaggerTwoChildren>
 							<div className="sofax-features-box">
 								<div className="sofax-features-icon">
-									<img src={Icon5} alt="Icon 5" />
+									<Image src={Icon5} alt="Icon 5" />
 								</div>
 								<div className="sofax-features-content">
 									<h4>Real Time Tranding</h4>

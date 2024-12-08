@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 function BlogTag() {
 	return (
@@ -9,7 +9,7 @@ function BlogTag() {
 					<li>
 						<Link
 							className="sofax-subscription-field-group mb-0 sofax-default-btn pill outline-btn"
-							to="/single-blog"
+							href="/single-blog"
 						>
 							Business
 						</Link>
@@ -17,7 +17,7 @@ function BlogTag() {
 					<li>
 						<Link
 							className="sofax-subscription-field-group mb-0 sofax-default-btn pill outline-btn"
-							to="/single-blog"
+							href="/single-blog"
 						>
 							Web
 						</Link>
@@ -25,7 +25,7 @@ function BlogTag() {
 					<li>
 						<Link
 							className="sofax-subscription-field-group mb-0 sofax-default-btn pill outline-btn"
-							to="/single-blog"
+							href="/single-blog"
 						>
 							Digital
 						</Link>

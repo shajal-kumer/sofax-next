@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import Arrow from "../../assets/images/about/arrow.png";
 function BreadCrumb({ title }) {
 	return (
@@ -8,7 +8,7 @@ function BreadCrumb({ title }) {
 				<nav className="breadcrumbs">
 					<ul>
 						<li>
-							<Link to="/">Home</Link>
+							<Link href="/">Home</Link>
 						</li>
 						<li>
 							<img src={Arrow} alt="arrow" />

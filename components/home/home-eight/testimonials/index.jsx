@@ -1,6 +1,6 @@
-import image1 from "../../../../assets/images/v8/image4v8.png";
-import image2 from "../../../../assets/images/v8/image5v8.png";
-import image3 from "../../../../assets/images/v8/image6v8.png";
+import image1 from "@/public/images/v8/image4v8.png";
+import image2 from "@/public/images/v8/image5v8.png";
+import image3 from "@/public/images/v8/image6v8.png";
 
 import FadeInStagger from "../../../animation/FadeInStagger";
 import TestimonialCard from "./TestimonialCard";

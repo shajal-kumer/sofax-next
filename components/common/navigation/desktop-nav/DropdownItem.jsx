@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import ArrowDown from "./ArrowDown";
 function DropdownItem({ dropdown, children, title, url }) {
 	const urlFormated = url !== "/" ? `/${url}` : "/";
@@ -12,7 +12,7 @@ function DropdownItem({ dropdown, children, title, url }) {
 		</li>
 	) : (
 		<li className="sub-menu--item">
-			<Link to={urlFormated}>
+			<Link href={urlFormated}>
 				<span className="menu-item-text">{children}</span>
 			</Link>
 		</li>

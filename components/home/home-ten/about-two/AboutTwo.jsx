@@ -1,5 +1,5 @@
-import IconCheck from "../../../../assets/images/v10/icon5v6.png";
-import Thumb from "../../../../assets/images/v10/thumb3v10.png";
+import IconCheck from "@/public/images/v10/icon5v6.png";
+import Thumb from "@/public/images/v10/thumb3v10.png";
 import FadeInRight from "../../../animation/FadeInRight";
 function AboutTwo() {
 	return (

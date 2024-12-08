@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
+"use client";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import Dropdown from "./Dropdown";
 const NavItem = ({ items, depthLevel, showMenu, setShowMenu, onePage }) => {
 	const [dropdown, setDropdown] = useState(false);
@@ -55,7 +56,7 @@ const NavItem = ({ items, depthLevel, showMenu, setShowMenu, onePage }) => {
 		</li>
 	) : (
 		<li className="nav-item" onClick={closeDropdown}>
-			{onePage ? <a href={items.url}>{items.title}</a> : <Link to={items.url}>{items.title}</Link>}
+			{onePage ? <a href={items.url}>{items.title}</a> : <Link href={items.url}>{items.title}</Link>}
 		</li>
 	);
 };

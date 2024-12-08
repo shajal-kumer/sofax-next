@@ -1,5 +1,6 @@
-import Rattingful from "../../../../assets/images/v1/rattingful.svg";
-import Rattinghalf from "../../../../assets/images/v1/rattinghalf.svg";
+import Rattingful from "@/public/images/v1/rattingful.svg";
+import Rattinghalf from "@/public/images/v1/rattinghalf.svg";
+import Image from "next/image";
 import HeroContent from "./HeroContent";
 import HeroThumbs from "./HeroThumbs";
 function HeroSection() {
@@ -16,19 +17,19 @@ function HeroSection() {
 				<div className="sofax-rating-icon">
 					<ul>
 						<li>
-							<img src={Rattingful} alt="Rating" />
+							<Image src={Rattingful} alt="Rating" />
 						</li>
 						<li>
-							<img src={Rattingful} alt="Rating" />
+							<Image src={Rattingful} alt="Rating" />
 						</li>
 						<li>
-							<img src={Rattingful} alt="Rating" />
+							<Image src={Rattingful} alt="Rating" />
 						</li>
 						<li>
-							<img src={Rattingful} alt="Rating" />
+							<Image src={Rattingful} alt="Rating" />
 						</li>
 						<li>
-							<img src={Rattinghalf} alt="Rating" />
+							<Image src={Rattinghalf} alt="Rating" />
 						</li>
 						<li>4.8/5 rating software trusted by users</li>
 					</ul>

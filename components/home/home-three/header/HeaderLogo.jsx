@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom";
-import Logo from "../../../../assets/images/logo/logo-dark.svg";
+import Logo from "@/public/images/logo/logo-dark.svg";
+import Image from "next/image";
+import Link from "next/link";
 function HeaderLogo() {
 	return (
 		<div className="brand-logo">
-			<Link to="/">
-				<img src={Logo} alt="Logo" className="light-version-logo" />
+			<Link href="/">
+				<Image src={Logo} alt="Logo" className="light-version-logo" />
 			</Link>
 		</div>
 	);

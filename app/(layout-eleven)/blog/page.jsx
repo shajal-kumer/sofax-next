@@ -1,6 +1,6 @@
-import Blog from "../../components/blog-page";
-import AutoSlider from "../../components/common/auto-slider";
-import BreadCrumb from "../../components/common/Breadcrumb";
+import Blog from "@/components/blog-page";
+import AutoSlider from "@/components/common/auto-slider";
+import BreadCrumb from "@/components/common/Breadcrumb";
 
 function BlogPage() {
 	return (

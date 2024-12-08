@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
-import Shape1 from "../../../../assets/images/v5/shape1.png";
-import Shape5 from "../../../../assets/images/v5/shape5.png";
+import Shape1 from "@/public/images/v5/shape1.png";
+import Shape5 from "@/public/images/v5/shape5.png";
+import Image from "next/image";
+import Link from "next/link";
 import TextSplitFadeIn from "../../../animation/TextSplitFadeIn";
 
 function FooterCta() {
@@ -14,15 +15,15 @@ function FooterCta() {
 						</h2>
 					</div>
 					<div className="sofax-footer-shapev5">
-						<img src={Shape1} alt="shape" />
+						<Image src={Shape1} alt="shape" />
 					</div>
 					<div className="sofax-footer-shape2v5">
-						<img src={Shape5} alt="shape" />
+						<Image src={Shape5} alt="shape" />
 					</div>
 				</div>
 				<div className="col-xl-4 col-lg-4 d-flex align-items-center justify-content-end">
 					<div className="sofax-footer-title-btn-wrap">
-						<Link className="sofax-footer-title-btn-icon" to="/contact-us">
+						<Link className="sofax-footer-title-btn-icon" href="/contact-us">
 							<svg
 								width="30"
 								height="27"

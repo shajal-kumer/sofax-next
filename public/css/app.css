@@ -70,7 +70,7 @@ html {
 body {
 	height: 100% !important;
 	color: var(--body-color);
-	font-family: "Inter", sans-serif;
+	font-family: var(--font-inter), sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	vertical-align: baseline;
@@ -357,7 +357,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-	font-family: "DM Sans", sans-serif;
+	font-family: var(--font-DM-Sans), sans-serif;
 	color: var(--heading-color);
 	font-weight: 700;
 	margin: 0;
@@ -761,6 +761,7 @@ a {
 
 img {
 	max-width: 100%;
+	height: auto;
 }
 
 .rt-list {
@@ -783,7 +784,7 @@ blockquote {
 	padding: 30px;
 	margin: 0 0 24px;
 	color: var(--white-smoke);
-	font-family: "DM Sans", sans-serif;
+	font-family: var(--font-DM-Sans), sans-serif;
 	background-color: var(--dark-bg);
 }
 
@@ -2242,7 +2243,7 @@ a.social-icon img {
 	line-height: 24px;
 	padding: 18px 34px;
 	font-weight: 700;
-	font-family: "Inter", sans-serif;
+	font-family: var(--font-inter), sans-serif;
 	width: fit-content;
 	position: relative;
 	z-index: 1;
@@ -3187,7 +3188,7 @@ h1.post__title {
 	background-size: 9px;
 	background-position: center right;
 	background-repeat: no-repeat;
-	background-image: url(../images/icon/arrow-right7.svg);
+	/* background-image: url(../images/icon/arrow-right7.svg); */
 }
 .breadcrumbs ul li:last-child:before {
 	content: none;
@@ -6622,7 +6623,7 @@ a.sofax-connect-login img {
 
 .accordion-button {
 	color: var(--dark-bg) !important;
-	background-color: var(body-color) !important;
+	/* background-color: var(--body-color) !important; */
 	padding: 0;
 }
 

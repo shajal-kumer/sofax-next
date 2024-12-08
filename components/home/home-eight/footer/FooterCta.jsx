@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
-import Shape from "../../../../assets/images/v5/shape1.png";
+import Shape from "@/public/images/v5/shape1.png";
+import Image from "next/image";
+import Link from "next/link";
 function FooterCta() {
 	return (
 		<>
@@ -8,12 +9,12 @@ function FooterCta() {
 					<h2>Let's embark on a IT services together!</h2>
 				</div>
 				<div className="sofax-footer-shapev8">
-					<img src={Shape} alt="shape" />
+					<Image src={Shape} alt="shape" />
 				</div>
 			</div>
 			<div className="col-xl-4 col-lg-4 d-flex align-items-center justify-content-end">
 				<div className="sofax-footer-title-btn-wrap">
-					<Link className="sofax-footer-title-btn-icon" to="/contact-us">
+					<Link className="sofax-footer-title-btn-icon" href="/contact-us">
 						<svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path
 								fillRule="evenodd"

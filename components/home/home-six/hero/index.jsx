@@ -1,4 +1,5 @@
-import Dashboard from "../../../../assets/images/v6/dashboardv6.png";
+import Dashboard from "@/public/images/v6/dashboardv6.png";
+import Image from "next/image";
 import FadeInUp from "../../../animation/FadeInUp";
 import HeroConent from "./HeroContent";
 function Hero() {
@@ -11,7 +12,7 @@ function Hero() {
 					</div>
 					<div className="col-lg-6">
 						<FadeInUp className="hero-thumbv6">
-							<img src={Dashboard} alt="Dashboard" />
+							<Image src={Dashboard} alt="Dashboard" />
 						</FadeInUp>
 					</div>
 				</div>

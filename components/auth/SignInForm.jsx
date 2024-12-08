@@ -1,5 +1,5 @@
+import Link from "next/link";
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import Icon from "../../assets/images/contact/icon5.png";
 import Field from "../common/Field";
@@ -56,14 +56,14 @@ function SignInForm() {
 							<div className="sofax-form-box forgot-password">
 								<input type="checkbox" id="css" />
 								<label htmlFor="css">Remember me</label>
-								<Link to="/">Forget password?</Link>
+								<Link href="/">Forget password?</Link>
 							</div>
 							<button className="sofax-subcribe-btn2" type="submit">
 								Create Account
 							</button>
 							<div className="login mt-24">
 								<span>Don’t have an account?</span>
-								<Link to="/sign-up">
+								<Link href="/sign-up">
 									<h4>Sign up</h4>
 								</Link>
 							</div>

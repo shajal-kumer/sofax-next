@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
-import Logo from "../../../../assets/images/logo/logo-white.svg";
+import Logo from "@/public/images/logo/logo-white.svg";
+import Link from "next/link";
 function HeaderTwo() {
 	return (
 		<div className="sofax-form-header">
 			<div className="container">
 				<div className="sofax-form-header-logo">
-					<Link to="/">
+					<Link href="/">
 						<img src={Logo} alt="logo" />
 					</Link>
 				</div>

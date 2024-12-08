@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 function ServiceCard({ service: { id, title, description } }) {
 	return (
 		<div className="sofax-service-table-item">
@@ -11,7 +11,7 @@ function ServiceCard({ service: { id, title, description } }) {
 				<p>{description}</p>
 			</div>
 			<div className="sofax-service-table-btn sofax-service-table-btnv5">
-				<Link className="sofax-default-btn pill outline-btn p15" to="/single-service">
+				<Link className="sofax-default-btn pill outline-btn p15" href="/single-service">
 					<svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path
 							fillRule="evenodd"

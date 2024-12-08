@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "../../../animation/FadeInStaggerTwo";
 function HeroContent() {
 	return (
@@ -11,13 +11,13 @@ function HeroContent() {
 			</p>
 			<FadeInStaggerTwo className="aximo-hero-btn-wrap center">
 				<FadeInStaggerTwoChildren>
-					<Link className="aximo-default-btn" to="/contact-us">
+					<Link className="aximo-default-btn" href="/contact-us">
 						<span className="aximo-label-up">Get In Touch</span>
 						<span className="aximo-label-up">Get In Touch</span>
 					</Link>
 				</FadeInStaggerTwoChildren>
 				<FadeInStaggerTwoChildren>
-					<Link className="aximo-default-btn aximo-default-btn-outline" to="/service">
+					<Link className="aximo-default-btn aximo-default-btn-outline" href="/service">
 						<span className="aximo-label-up">Explore Our Services</span>
 						<span className="aximo-label-up">Explore Our Services</span>
 					</Link>

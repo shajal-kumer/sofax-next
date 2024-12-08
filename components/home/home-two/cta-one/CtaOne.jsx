@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
-import Thumb2 from "../../../../assets/images/v2/contentthumb2.png";
+import Thumb2 from "@/public/images/v2/contentthumb2.png";
+import Image from "next/image";
+import Link from "next/link";
 import FadeInLeft from "../../../animation/FadeInLeft";
 import FadeInUp from "../../../animation/FadeInUp";
 import TextSplitFadeIn from "../../../animation/TextSplitFadeIn";
@@ -10,7 +11,7 @@ function CtaOne() {
 				<div className="row">
 					<div className="col-lg-5">
 						<FadeInLeft className="about-thumb mr-50 ">
-							<img src={Thumb2} alt="Thumbs 2" />
+							<Image src={Thumb2} alt="Thumbs 2" />
 						</FadeInLeft>
 					</div>
 					<div className="col-lg-7">
@@ -32,7 +33,7 @@ function CtaOne() {
 								app and protect your crypto with best-in-className cold storage.
 							</p>
 							<FadeInUp className="extra-mt">
-								<Link className="sofax-default-btn pill" data-text="Sign up now" to="/sign-up">
+								<Link className="sofax-default-btn pill" data-text="Sign up now" href="/sign-up">
 									<span className="button-wraper">Sign up now</span>
 								</Link>
 							</FadeInUp>

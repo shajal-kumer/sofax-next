@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import Shape4Img from "../../../../assets/images/v5/shape4.png";
+import Shape4Img from "@/public/images/v5/shape4.png";
+import Link from "next/link";
 import FadeInUp from "../../../animation/FadeInUp";
 function Cta() {
 	return (
@@ -12,7 +12,7 @@ function Cta() {
 						presence. We guarantee top-notch quality.
 					</p>
 					<FadeInUp>
-						<Link className="aximo-default-btn corn-btn pill" to="/contact-us">
+						<Link className="aximo-default-btn corn-btn pill" href="/contact-us">
 							<span className="aximo-label-up">Get In Touch</span>
 							<span className="aximo-label-up">Get In Touch</span>
 						</Link>

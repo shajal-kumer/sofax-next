@@ -1,11 +1,11 @@
-import { Outlet } from "react-router-dom";
+import Footer from "@/components/home/home-five/footer";
+
 import Header from "../../common/header";
-import Footer from "../../home/home-five/footer";
-function LayoutEleven() {
+function LayoutEleven({ children }) {
 	return (
 		<>
 			<Header />
-			<Outlet />
+			{children}
 			<Footer />
 		</>
 	);

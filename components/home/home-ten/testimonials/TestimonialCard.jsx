@@ -1,4 +1,4 @@
-import Star from "../../../../assets/images/v3/starticon.svg";
+import Star from "@/public/images/v3/starticon.svg";
 
 function TestimonialCard({
 	testimonial: {

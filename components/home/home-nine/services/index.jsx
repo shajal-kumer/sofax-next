@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import FadeInStagger from "../../../animation/FadeInStagger";
 import ServiceCard from "./ServiceCard";
 const servicesData = [
@@ -7,42 +7,36 @@ const servicesData = [
 		title: "E-commerce Integration",
 		description:
 			"Integration in email marketing involves connecting your email marketing platform with your e-commerce store.",
-		link: "single-service.html",
 	},
 	{
 		id: 2,
 		title: "Analytics & Reporting",
 		description:
 			"Recipients who open your email, effectiveness of your subject line and the overall interest of your audience.",
-		link: "single-service.html",
 	},
 	{
 		id: 3,
 		title: "Email Campaign Creation",
 		description:
 			"Involves several steps utilizes various tools techniques to ensure the emails are effective engaging & aligned.",
-		link: "single-service.html",
 	},
 	{
 		id: 4,
 		title: "Conversion Tracking",
 		description:
 			"Involves monitoring and analyzing to the actions that recipients take after clicking links within your emails.",
-		link: "single-service.html",
 	},
 	{
 		id: 5,
 		title: "Opt-In Management",
 		description:
 			"A subscriber is added the email list immediately after submitting their email address without confirmation.",
-		link: "single-service.html",
 	},
 	{
 		id: 6,
 		title: "Subject Line Testing",
 		description:
 			"Testing involves creating two different subject lines & sending them two small randomly selected segments.",
-		link: "single-service.html",
 	},
 ];
 function Services() {
@@ -58,7 +52,7 @@ function Services() {
 						</div>
 						<div className="col-xl-5 col-lg-4 d-flex justify-content-end align-items-center">
 							<div className="sofax-title-btn wow fadeInUpX">
-								<Link className="sofax-default-btn pill" data-text="View All Services" to="/service">
+								<Link className="sofax-default-btn pill" data-text="View All Services" href="/service">
 									<span className="button-wraper">View All Services</span>
 								</Link>
 							</div>

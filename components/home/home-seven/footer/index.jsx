@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
-import LogoDark from "../../../../assets/images/logo/logo-dark.svg";
+import LogoDark from "@/public/images/logo/logo-dark.svg";
+import Image from "next/image";
+import Link from "next/link";
 function Footer() {
 	return (
 		<footer className="sofax-footer-section">
@@ -11,16 +12,16 @@ function Footer() {
 								<h5>Company</h5>
 								<ul>
 									<li>
-										<Link to="/about-us">About Us</Link>
+										<Link href="/about-us">About Us</Link>
 									</li>
 									<li>
-										<Link to="/contact-us">Contact US</Link>
+										<Link href="/contact-us">Contact US</Link>
 									</li>
 									<li>
-										<Link to="/contact-us">Privacy Policy</Link>
+										<Link href="/contact-us">Privacy Policy</Link>
 									</li>
 									<li>
-										<Link to="/terms-condition">Terms & Conditions</Link>
+										<Link href="/terms-condition">Terms & Conditions</Link>
 									</li>
 								</ul>
 							</div>
@@ -30,16 +31,16 @@ function Footer() {
 								<h5>Utility Pages</h5>
 								<ul>
 									<li>
-										<Link to="/contact-us">Instructions</Link>
+										<Link href="/contact-us">Instructions</Link>
 									</li>
 									<li>
-										<Link to="/contact-us">Style Guide</Link>
+										<Link href="/contact-us">Style Guide</Link>
 									</li>
 									<li>
-										<Link to="/404">404 Pages</Link>
+										<Link href="/404">404 Pages</Link>
 									</li>
 									<li>
-										<Link to="/contact-us">Licenses</Link>
+										<Link href="/contact-us">Licenses</Link>
 									</li>
 								</ul>
 							</div>
@@ -49,16 +50,16 @@ function Footer() {
 								<h5>Product</h5>
 								<ul>
 									<li>
-										<Link to="/contact-us">Integration</Link>
+										<Link href="/contact-us">Integration</Link>
 									</li>
 									<li>
-										<Link to="/contact-us">Customers</Link>
+										<Link href="/contact-us">Customers</Link>
 									</li>
 									<li>
-										<Link to="/pricing">Pricing</Link>
+										<Link href="/pricing">Pricing</Link>
 									</li>
 									<li>
-										<Link to="/contact-us">Help Center</Link>
+										<Link href="/contact-us">Help Center</Link>
 									</li>
 								</ul>
 							</div>
@@ -68,16 +69,16 @@ function Footer() {
 								<h5>Resource</h5>
 								<ul>
 									<li>
-										<Link to="/contact-us">Releases</Link>
+										<Link href="/contact-us">Releases</Link>
 									</li>
 									<li>
-										<Link to="/blog">Blog</Link>
+										<Link href="/blog">Blog</Link>
 									</li>
 									<li>
-										<Link to="/career">Careers</Link>
+										<Link href="/career">Careers</Link>
 									</li>
 									<li>
-										<Link to="/contact-us">Contact Sales</Link>
+										<Link href="/contact-us">Contact Sales</Link>
 									</li>
 								</ul>
 							</div>
@@ -86,8 +87,8 @@ function Footer() {
 				</div>
 				<div className="sofax-footer3-wrap">
 					<div className="sofax-footer3-logo">
-						<Link to="/muti-page/home-three">
-							<img src={LogoDark} alt="logo" />
+						<Link href="/muti-page/home-three">
+							<Image src={LogoDark} alt="logo" />
 						</Link>
 					</div>
 					<div className="sofax-footer3-text">

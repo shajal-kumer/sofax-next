@@ -1,11 +1,11 @@
+import logo1 from "@/public/images/v9/logo1v9.png";
+import logo2 from "@/public/images/v9/logo2v9.png";
+import logo3 from "@/public/images/v9/logo3v9.png";
+import logo4 from "@/public/images/v9/logo4v9.png";
+import logo5 from "@/public/images/v9/logo5v9.png";
+import logo6 from "@/public/images/v9/logo6v9.png";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import logo1 from "../../../../assets/images/v9/logo1v9.png";
-import logo2 from "../../../../assets/images/v9/logo2v9.png";
-import logo3 from "../../../../assets/images/v9/logo3v9.png";
-import logo4 from "../../../../assets/images/v9/logo4v9.png";
-import logo5 from "../../../../assets/images/v9/logo5v9.png";
-import logo6 from "../../../../assets/images/v9/logo6v9.png";
 
 const sliderData = [
 	{

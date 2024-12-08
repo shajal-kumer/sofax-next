@@ -1,7 +1,8 @@
-import Icon1 from "../../../../assets/images/v9/icon4v9.png";
-import Icon2 from "../../../../assets/images/v9/icon5v9.png";
-import Icon3 from "../../../../assets/images/v9/icon6v9.png";
-import Thumb from "../../../../assets/images/v9/thumb2v9.png";
+import Icon1 from "@/public/images/v9/icon4v9.png";
+import Icon2 from "@/public/images/v9/icon5v9.png";
+import Icon3 from "@/public/images/v9/icon6v9.png";
+import Thumb from "@/public/images/v9/thumb2v9.png";
+import Image from "next/image";
 import FadeInUp from "../../../animation/FadeInUp";
 function AboutOne() {
 	return (
@@ -10,7 +11,7 @@ function AboutOne() {
 				<div className="row">
 					<div className="col-lg-5">
 						<FadeInUp className="sofax-content-thumb-v9 box-shadow">
-							<img src={Thumb} alt="Thumb" />
+							<Image src={Thumb} alt="Thumb" />
 						</FadeInUp>
 					</div>
 					<div className="col-lg-7">
@@ -26,7 +27,7 @@ function AboutOne() {
 						<div className="extra-mt ml-70">
 							<div className="sofax-iconbox-wrap2">
 								<div className="sofax-iconbox-icon2">
-									<img src={Icon1} alt="Icon" />
+									<Image src={Icon1} alt="Icon" />
 								</div>
 								<div className="sofax-iconbox-data2">
 									<h4>Track campaign performance</h4>
@@ -38,7 +39,7 @@ function AboutOne() {
 							</div>
 							<div className="sofax-iconbox-wrap2">
 								<div className="sofax-iconbox-icon2">
-									<img src={Icon2} alt="Icon" />
+									<Image src={Icon2} alt="Icon" />
 								</div>
 								<div className="sofax-iconbox-data2">
 									<h4>Convert teads and customers</h4>
@@ -50,7 +51,7 @@ function AboutOne() {
 							</div>
 							<div className="sofax-iconbox-wrap2">
 								<div className="sofax-iconbox-icon2">
-									<img src={Icon3} alt="Icon" />
+									<Image src={Icon3} alt="Icon" />
 								</div>
 								<div className="sofax-iconbox-data2">
 									<h4>Engage customers effectively</h4>

@@ -1,17 +1,19 @@
-import { Link } from "react-router-dom";
+"use client";
+import Img1 from "@/public/images/v3/1.png";
+import Img10 from "@/public/images/v3/10.png";
+import Img11 from "@/public/images/v3/11.png";
+import Img12 from "@/public/images/v3/12.png";
+import Img2 from "@/public/images/v3/2.png";
+import Img3 from "@/public/images/v3/3.png";
+import Img4 from "@/public/images/v3/4.png";
+import Img5 from "@/public/images/v3/5.png";
+import Img6 from "@/public/images/v3/6.png";
+import Img7 from "@/public/images/v3/7.png";
+import Img8 from "@/public/images/v3/8.png";
+import Img9 from "@/public/images/v3/9.png";
+import Image from "next/image";
+import Link from "next/link";
 import { Autoplay } from "swiper/modules";
-import Img1 from "../../../../assets/images/v3/1.png";
-import Img10 from "../../../../assets/images/v3/10.png";
-import Img11 from "../../../../assets/images/v3/11.png";
-import Img12 from "../../../../assets/images/v3/12.png";
-import Img2 from "../../../../assets/images/v3/2.png";
-import Img3 from "../../../../assets/images/v3/3.png";
-import Img4 from "../../../../assets/images/v3/4.png";
-import Img5 from "../../../../assets/images/v3/5.png";
-import Img6 from "../../../../assets/images/v3/6.png";
-import Img7 from "../../../../assets/images/v3/7.png";
-import Img8 from "../../../../assets/images/v3/8.png";
-import Img9 from "../../../../assets/images/v3/9.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 const sliderDataOne = [
@@ -158,7 +160,7 @@ function Integrations() {
 								<Link
 									className="sofax-default-btn pill"
 									data-text="Explore All Integrations"
-									to="/contact-us"
+									href="/contact-us"
 								>
 									<span className="button-wraper">Explore All Integrations</span>
 								</Link>
@@ -171,7 +173,7 @@ function Integrations() {
 						{sliderDataOne.map((item) => (
 							<SwiperSlide key={item.id}>
 								<div className="sofax-integration-slider-icon">
-									<img src={item.img} alt="Brand Logo" />
+									<Image src={item.img} alt="Brand Logo" />
 								</div>
 							</SwiperSlide>
 						))}
@@ -182,7 +184,7 @@ function Integrations() {
 						{sliderDataTwo.map((item) => (
 							<SwiperSlide key={item.id}>
 								<div className="sofax-integration-slider-icon">
-									<img src={item.img} alt="Brand Logo" />
+									<Image src={item.img} alt="Brand Logo" />
 								</div>
 							</SwiperSlide>
 						))}

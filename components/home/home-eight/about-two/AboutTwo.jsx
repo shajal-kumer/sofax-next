@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
-import IconCheck from "../../../../assets/images/v6/icon5v6.png";
-import Thumb from "../../../../assets/images/v8/image3v8.png";
+import IconCheck from "@/public/images/v6/icon5v6.png";
+import Thumb from "@/public/images/v8/image3v8.png";
+import Image from "next/image";
+import Link from "next/link";
 import FadeInRight from "../../../animation/FadeInRight";
 import FadeInUp from "../../../animation/FadeInUp";
 function AboutTwo() {
@@ -10,7 +11,7 @@ function AboutTwo() {
 				<div className="row">
 					<div className="col-lg-6 order-lg-2">
 						<FadeInRight className="sofax-content-thumbv8 ml-70">
-							<img src={Thumb} alt="Thumb" />
+							<Image src={Thumb} alt="Thumb" />
 						</FadeInRight>
 					</div>
 					<div className="col-lg-6">
@@ -26,11 +27,11 @@ function AboutTwo() {
 								<div className="sofax-list-icon-icon contentv8">
 									<ul>
 										<li>
-											<img src={IconCheck} alt="check icon" />
+											<Image src={IconCheck} alt="check icon" />
 											Cybersecurity solutions
 										</li>
 										<li>
-											<img src={IconCheck} alt="check icon" />
+											<Image src={IconCheck} alt="check icon" />
 											Protect sensitive data
 										</li>
 									</ul>
@@ -38,18 +39,18 @@ function AboutTwo() {
 								<div className="sofax-list-icon-icon contentv8">
 									<ul>
 										<li>
-											<img src={IconCheck} alt="check icon" />
+											<Image src={IconCheck} alt="check icon" />
 											Overheating Issues
 										</li>
 										<li>
-											<img src={IconCheck} alt="check icon" />
+											<Image src={IconCheck} alt="check icon" />
 											Software crashes
 										</li>
 									</ul>
 								</div>
 							</div>
 							<FadeInUp className="sofax-title-btn extra-mt">
-								<Link className="sofax-default-btn pill" data-text="Explore More" to="/contact-us">
+								<Link className="sofax-default-btn pill" data-text="Explore More" href="/contact-us">
 									<span className="button-wraper">Explore More</span>
 								</Link>
 							</FadeInUp>
