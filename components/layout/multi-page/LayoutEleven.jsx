@@ -1,6 +1,6 @@
 import Footer from "@/components/home/home-five/footer";
 
-import Header from "../../common/header";
+import Header from "@/components/common/header";
 function LayoutEleven({ children }) {
 	return (
 		<>

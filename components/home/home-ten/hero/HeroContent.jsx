@@ -1,7 +1,8 @@
+"use client";
+import Field from "@/components/common/Field";
 import { useForm } from "react-hook-form";
 import { toast, ToastContainer } from "react-toastify";
 import FadeInUp from "../../../animation/FadeInUp";
-import Field from "../../../common/Field";
 function HeroContent() {
 	const {
 		register,

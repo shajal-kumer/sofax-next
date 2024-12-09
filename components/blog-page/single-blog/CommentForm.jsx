@@ -1,6 +1,7 @@
+"use client";
+import Field from "@/components/common/Field";
 import { useForm } from "react-hook-form";
 import FadeInUp from "../../animation/FadeInUp";
-import Field from "../../common/Field";
 
 function CommentForm() {
 	const {

@@ -1,13 +1,12 @@
-import { Link, useLocation } from "react-router-dom";
-import LogoDark from "../../../assets/images/logo/logo-dark.svg";
-import LogoLight from "../../../assets/images/logo/logo-white.svg";
+"use client";
+import Logo from "@/public/images/logo/logo-dark.svg";
+import Image from "next/image";
+import Link from "next/link";
 function HeaderLogo() {
-	let location = useLocation();
-
 	return (
 		<div className="brand-logo">
 			<Link href="/">
-				<img src={location.pathname !== "/" ? LogoLight : LogoDark} alt="Logo" />
+				<Image src={Logo} alt="Logo" />
 			</Link>
 		</div>
 	);

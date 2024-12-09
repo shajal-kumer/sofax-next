@@ -1,4 +1,5 @@
 import Logo from "@/public/images/logo/logo-white.svg";
+import Image from "next/image";
 import Link from "next/link";
 import FooterBottom from "./FooterBottom";
 function Footer() {
@@ -10,7 +11,7 @@ function Footer() {
 						<div className="col-xl-4 col-md-12">
 							<div className="sofax-footer-wrap mr15">
 								<Link href="/multi-page/home-ten">
-									<img src={Logo} alt="Logo" />
+									<Image src={Logo} alt="Logo" />
 								</Link>
 								<p>
 									Chooses a web hosting service to you are renting space on server where your websites

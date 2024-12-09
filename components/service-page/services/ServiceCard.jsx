@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function ServiceCard({ service: { title, description, icon } }) {
 	return (
 		<div className="sofax-service-iconbox-wrap">
@@ -6,7 +8,7 @@ function ServiceCard({ service: { title, description, icon } }) {
 				<p>{description}</p>
 			</div>
 			<div className="sofax-service-iconbox-icon">
-				<img src={icon} alt="icon" />
+				<Image src={icon} alt="icon" />
 			</div>
 		</div>
 	);

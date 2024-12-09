@@ -1,6 +1,8 @@
+"use client";
+import Icon1 from "@/public/images/service/icon1.png";
+import Image from "next/image";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Icon1 from "../../../assets/images/service/icon1.png";
 
 const sliderData = [
 	{
@@ -79,7 +81,7 @@ function AutoSlider() {
 							<SwiperSlide key={item.id}>
 								<div className="sofax-service-slider-wrap">
 									<div className="sofax-service-slider-icon">
-										<img src={item.img} alt="Icon" />
+										<Image src={item.img} alt="Icon" />
 									</div>
 									<div className="sofax-service-slider-data light-color">
 										<h2>{item.txt}</h2>

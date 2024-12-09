@@ -1,4 +1,4 @@
-import Header from "../../common/header/two";
+import Header from "@/components/common/header/two";
 
 function LayoutThirteen({ children }) {
 	return (

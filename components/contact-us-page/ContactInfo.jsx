@@ -1,12 +1,13 @@
-import Icon1 from "../../assets/images/contact/icon1.png";
-import Icon2 from "../../assets/images/contact/icon2.png";
-import Icon3 from "../../assets/images/contact/icon3.png";
+import Icon1 from "@/public/images/contact/icon1.png";
+import Icon2 from "@/public/images/contact/icon2.png";
+import Icon3 from "@/public/images/contact/icon3.png";
+import Image from "next/image";
 function ContactInfo() {
 	return (
 		<div className="contactus-authore-wrapper">
 			<div className="sofax-iconbox-wrap2">
 				<div className="sofax-iconbox-icon2">
-					<img src={Icon1} alt="Icon chat" />
+					<Image src={Icon1} alt="Icon chat" />
 				</div>
 				<div className="sofax-iconbox-data2">
 					<h4>Chat with us</h4>
@@ -15,7 +16,7 @@ function ContactInfo() {
 			</div>
 			<div className="sofax-iconbox-wrap2">
 				<div className="sofax-iconbox-icon2">
-					<img src={Icon2} alt="Call icon" />
+					<Image src={Icon2} alt="Call icon" />
 				</div>
 				<div className="sofax-iconbox-data2">
 					<h4>Give us a call</h4>
@@ -24,7 +25,7 @@ function ContactInfo() {
 			</div>
 			<div className="sofax-iconbox-wrap2">
 				<div className="sofax-iconbox-icon2">
-					<img src={Icon3} alt="Email Icon" />
+					<Image src={Icon3} alt="Email Icon" />
 				</div>
 				<div className="sofax-iconbox-data2">
 					<h4>Email Us</h4>

@@ -1,5 +1,6 @@
+import Arrow from "@/public/images/about/arrow.png";
+import Image from "next/image";
 import Link from "next/link";
-import Arrow from "../../assets/images/about/arrow.png";
 function BreadCrumb({ title }) {
 	return (
 		<div className="sofax-breadcrumb">
@@ -11,7 +12,7 @@ function BreadCrumb({ title }) {
 							<Link href="/">Home</Link>
 						</li>
 						<li>
-							<img src={Arrow} alt="arrow" />
+							<Image src={Arrow} alt="arrow" />
 						</li>
 						<li aria-current="page"> {title}</li>
 					</ul>

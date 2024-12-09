@@ -1,11 +1,13 @@
+"use client";
+import Icon from "@/public/images/v5/icon5.png";
+import image1 from "@/public/images/v5/image1.png";
+import image2 from "@/public/images/v5/image2.png";
+import image3 from "@/public/images/v5/image3.png";
+import image4 from "@/public/images/v5/image4.png";
 import mixitup from "mixitup";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
-import Icon from "../../assets/images/v5/icon5.png";
-import image1 from "../../assets/images/v5/image1.png";
-import image2 from "../../assets/images/v5/image2.png";
-import image3 from "../../assets/images/v5/image3.png";
-import image4 from "../../assets/images/v5/image4.png";
 
 function PortfolioList() {
 	useEffect(() => {
@@ -45,7 +47,7 @@ function PortfolioList() {
 						<div className="sofax-portfolio-content-wrap">
 							<div className="sofax-portfolio-thumb">
 								<Link href="/single-portfolio">
-									<img src={image1} alt="image" />
+									<Image src={image1} alt="image" />
 								</Link>
 							</div>
 							<Link href="/single-portfolio">
@@ -55,7 +57,7 @@ function PortfolioList() {
 										<p>Web design & development</p>
 									</div>
 									<div className="sofax-portfolio-author-icon">
-										<img src={Icon} alt="Icon" />
+										<Image src={Icon} alt="Icon" />
 									</div>
 								</div>
 							</Link>
@@ -65,7 +67,7 @@ function PortfolioList() {
 						<div className="sofax-portfolio-content-wrap">
 							<div className="sofax-portfolio-thumb">
 								<Link href="/single-portfolio">
-									<img src={image2} alt="Image 2" />
+									<Image src={image2} alt="Image 2" />
 								</Link>
 							</div>
 							<Link href="/single-portfolio">
@@ -75,7 +77,7 @@ function PortfolioList() {
 										<p>APP</p>
 									</div>
 									<div className="sofax-portfolio-author-icon">
-										<img src={Icon} alt="Icon" />
+										<Image src={Icon} alt="Icon" />
 									</div>
 								</div>
 							</Link>
@@ -85,7 +87,7 @@ function PortfolioList() {
 						<div className="sofax-portfolio-content-wrap">
 							<div className="sofax-portfolio-thumb">
 								<Link href="/single-portfolio">
-									<img src={image4} alt="image 4" />
+									<Image src={image4} alt="image 4" />
 								</Link>
 							</div>
 							<Link href="/single-portfolio">
@@ -95,7 +97,7 @@ function PortfolioList() {
 										<p>UI/UX Design</p>
 									</div>
 									<div className="sofax-portfolio-author-icon">
-										<img src={Icon} alt="Icon" />
+										<Image src={Icon} alt="Icon" />
 									</div>
 								</div>
 							</Link>
@@ -105,7 +107,7 @@ function PortfolioList() {
 						<div className="sofax-portfolio-content-wrap">
 							<div className="sofax-portfolio-thumb">
 								<Link href="/single-portfolio">
-									<img src={image3} alt="Image 3" />
+									<Image src={image3} alt="Image 3" />
 								</Link>
 							</div>
 							<Link href="/single-portfolio">
@@ -115,7 +117,7 @@ function PortfolioList() {
 										<p>Digital World</p>
 									</div>
 									<div className="sofax-portfolio-author-icon">
-										<img src={Icon} alt="Icon" />
+										<Image src={Icon} alt="Icon" />
 									</div>
 								</div>
 							</Link>
@@ -125,7 +127,7 @@ function PortfolioList() {
 						<div className="sofax-portfolio-content-wrap">
 							<div className="sofax-portfolio-thumb">
 								<Link href="/single-portfolio">
-									<img src={image1} alt="Image 1" />
+									<Image src={image1} alt="Image 1" />
 								</Link>
 							</div>
 							<Link href="/single-portfolio">
@@ -135,7 +137,7 @@ function PortfolioList() {
 										<p>Web Design</p>
 									</div>
 									<div className="sofax-portfolio-author-icon">
-										<img src={Icon} alt="Icon" />
+										<Image src={Icon} alt="Icon" />
 									</div>
 								</div>
 							</Link>
@@ -145,7 +147,7 @@ function PortfolioList() {
 						<div className="sofax-portfolio-content-wrap">
 							<div className="sofax-portfolio-thumb">
 								<Link href="/single-portfolio">
-									<img src={image2} alt="Iamge 2" />
+									<Image src={image2} alt="Iamge 2" />
 								</Link>
 							</div>
 							<Link href="/single-portfolio">
@@ -155,7 +157,7 @@ function PortfolioList() {
 										<p>Development</p>
 									</div>
 									<div className="sofax-portfolio-author-icon">
-										<img src={Icon} alt="Icon" />
+										<Image src={Icon} alt="Icon" />
 									</div>
 								</div>
 							</Link>

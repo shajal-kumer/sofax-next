@@ -1,4 +1,5 @@
-import Thumb from "../../../assets/images/team/thumb1.png";
+import Thumb from "@/public/images/team/thumb1.png";
+import Image from "next/image";
 import SingleTeamProgressbar from "./SingleTeamProgressbar";
 function SingleTeamDetails() {
 	return (
@@ -7,7 +8,7 @@ function SingleTeamDetails() {
 				<div className="row">
 					<div className="col-lg-6">
 						<div className="about-thumbv5 wow fadeInLeft">
-							<img src={Thumb} alt="Thumb" />
+							<Image src={Thumb} alt="Thumb" />
 						</div>
 					</div>
 					<div className="col-lg-6">

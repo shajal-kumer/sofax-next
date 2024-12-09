@@ -1,6 +1,7 @@
-import Icon from "../../../assets/images/v5/icon5.png";
-import Image2 from "../../../assets/images/v5/image3.png";
-import Image1 from "../../../assets/images/v5/image4.png";
+import Icon from "@/public/images/v5/icon5.png";
+import Image2 from "@/public/images/v5/image3.png";
+import Image1 from "@/public/images/v5/image4.png";
+import Image from "next/image";
 import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "../../animation/FadeInStaggerTwo";
 function RelatedProject() {
 	return (
@@ -14,7 +15,7 @@ function RelatedProject() {
 						<div className="sofax-portfolio-content-wrap">
 							<div className="sofax-portfolio-thumb">
 								<a href="single-portfolio.html">
-									<img src={Image1} alt="Image 1" />
+									<Image src={Image1} alt="Image 1" />
 								</a>
 							</div>
 							<a href="single-portfolio.html">
@@ -24,7 +25,7 @@ function RelatedProject() {
 										<p>Web design & development</p>
 									</div>
 									<div className="sofax-portfolio-author-icon">
-										<img src={Icon} alt="Icon " />
+										<Image src={Icon} alt="Icon " />
 									</div>
 								</div>
 							</a>
@@ -34,7 +35,7 @@ function RelatedProject() {
 						<div className="sofax-portfolio-content-wrap">
 							<div className="sofax-portfolio-thumb">
 								<a href="single-portfolio.html">
-									<img src={Image2} alt="Image 2" />
+									<Image src={Image2} alt="Image 2" />
 								</a>
 							</div>
 							<a href="single-portfolio.html">
@@ -44,7 +45,7 @@ function RelatedProject() {
 										<p>App design & development</p>
 									</div>
 									<div className="sofax-portfolio-author-icon">
-										<img src={Icon} alt="Icon " />
+										<Image src={Icon} alt="Icon " />
 									</div>
 								</div>
 							</a>

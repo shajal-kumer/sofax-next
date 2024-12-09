@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import FadeInUp from "../animation/FadeInUp";
 
@@ -6,7 +7,7 @@ function SingleTeamMember({ member: { image, title, name, className } }) {
 		<Link href="/single-team">
 			<div className={`sofax-team-member-wrap ${className}`}>
 				<FadeInUp className="sofax-team-member-img">
-					<img src={image} alt="team member" />
+					<Image src={image} alt="team member" />
 				</FadeInUp>
 				<div className="sofax-team-member-content">
 					<h4>{name}</h4>

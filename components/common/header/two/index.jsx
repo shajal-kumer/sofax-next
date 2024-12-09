@@ -1,4 +1,5 @@
 import Logo from "@/public/images/logo/logo-white.svg";
+import Image from "next/image";
 import Link from "next/link";
 function HeaderTwo() {
 	return (
@@ -6,7 +7,7 @@ function HeaderTwo() {
 			<div className="container">
 				<div className="sofax-form-header-logo">
 					<Link href="/">
-						<img src={Logo} alt="logo" />
+						<Image src={Logo} alt="logo" />
 					</Link>
 				</div>
 			</div>

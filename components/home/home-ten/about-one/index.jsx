@@ -1,6 +1,7 @@
 import Icon1 from "@/public/images/v10/icon4v10.png";
 import Icon2 from "@/public/images/v10/icon5v10.png";
 import Thumb from "@/public/images/v10/thumb2v10.png";
+import Image from "next/image";
 import Link from "next/link";
 import FadeInUp from "../../../animation/FadeInUp";
 function AboutOne() {
@@ -10,7 +11,7 @@ function AboutOne() {
 				<div className="row">
 					<div className="col-lg-5">
 						<FadeInUp className="sofax-content-thumb-v10">
-							<img src={Thumb} alt="thumb" />
+							<Image src={Thumb} alt="thumb" />
 						</FadeInUp>
 					</div>
 					<div className="col-lg-7">
@@ -29,13 +30,13 @@ function AboutOne() {
 									<ul className="nav nav-tabs">
 										<li className="nav-item">
 											<Link data-bs-toggle="tab" className="nav-link " href="/contact-us">
-												<img src={Icon1} alt="Icon" />
+												<Image src={Icon1} alt="Icon" />
 												<h4>Domain Services</h4>
 											</Link>
 										</li>
 										<li className="nav-item">
 											<Link data-bs-toggle="tab" className="nav-link" href="/contact-us">
-												<img src={Icon2} alt="Icon" />
+												<Image src={Icon2} alt="Icon" />
 												<h4>Web Hosting Services</h4>
 											</Link>
 										</li>

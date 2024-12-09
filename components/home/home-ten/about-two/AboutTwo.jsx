@@ -1,5 +1,6 @@
 import IconCheck from "@/public/images/v10/icon5v6.png";
 import Thumb from "@/public/images/v10/thumb3v10.png";
+import Image from "next/image";
 import FadeInRight from "../../../animation/FadeInRight";
 function AboutTwo() {
 	return (
@@ -8,7 +9,7 @@ function AboutTwo() {
 				<div className="row">
 					<div className="col-lg-5 order-lg-2">
 						<FadeInRight className="sofax-content-thumb-v10">
-							<img src={Thumb} alt="Thumb" />
+							<Image src={Thumb} alt="Thumb" />
 						</FadeInRight>
 					</div>
 					<div className="col-lg-7">
@@ -23,7 +24,7 @@ function AboutTwo() {
 							<div className="extra-mt">
 								<div className="sofax-content-iconbox-wrap">
 									<div className="sofax-iconbox-icon">
-										<img src={IconCheck} alt="check icon" />
+										<Image src={IconCheck} alt="check icon" />
 									</div>
 									<div className="sofax-iconbox-data">
 										<h4>15+ Years experienced web hosting company</h4>
@@ -35,7 +36,7 @@ function AboutTwo() {
 								</div>
 								<div className="sofax-content-iconbox-wrap">
 									<div className="sofax-iconbox-icon">
-										<img src={IconCheck} alt="check icon" />
+										<Image src={IconCheck} alt="check icon" />
 									</div>
 									<div className="sofax-iconbox-data">
 										<h4>24/7 Technical support</h4>
@@ -47,7 +48,7 @@ function AboutTwo() {
 								</div>
 								<div className="sofax-content-iconbox-wrap">
 									<div className="sofax-iconbox-icon">
-										<img src={IconCheck} alt="check icon" />
+										<Image src={IconCheck} alt="check icon" />
 									</div>
 									<div className="sofax-iconbox-data">
 										<h4>Safe and suceured</h4>

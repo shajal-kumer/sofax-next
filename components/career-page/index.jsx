@@ -1,14 +1,16 @@
+"use client";
+import image1 from "@/public/images/about/image1.png";
+import image2 from "@/public/images/about/image2.png";
+import image3 from "@/public/images/about/image3.png";
+import image4 from "@/public/images/about/image4.png";
+import image5 from "@/public/images/about/image5.png";
+import image6 from "@/public/images/about/image6.png";
+import image7 from "@/public/images/about/image7.png";
+import image8 from "@/public/images/about/image8.png";
+import Thumb from "@/public/images/career/thumb1.png";
 import mixitup from "mixitup";
+import Image from "next/image";
 import { useEffect } from "react";
-import image1 from "../../assets/images/about/image1.png";
-import image2 from "../../assets/images/about/image2.png";
-import image3 from "../../assets/images/about/image3.png";
-import image4 from "../../assets/images/about/image4.png";
-import image5 from "../../assets/images/about/image5.png";
-import image6 from "../../assets/images/about/image6.png";
-import image7 from "../../assets/images/about/image7.png";
-import image8 from "../../assets/images/about/image8.png";
-import Thumb from "../../assets/images/career/thumb1.png";
 
 const teamMembers = [
 	{
@@ -92,7 +94,7 @@ function Career() {
 					</div>
 				</div>
 				<div className="sofax-career-thumb ">
-					<img src={Thumb} alt="Thumb" />
+					<Image src={Thumb} alt="Thumb" />
 				</div>
 				<div className="sofax-section-title center max-width-large">
 					<h2>Curently open positions</h2>

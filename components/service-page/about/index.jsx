@@ -1,8 +1,9 @@
-import Icon2 from "../../../assets/images/service/icon2.png";
-import Icon3 from "../../../assets/images/service/icon3.png";
-import Icon4 from "../../../assets/images/service/icon4.png";
-import Thumb from "../../../assets/images/service/service-thumb.png";
-import Shape1 from "../../../assets/images/service/shape1.png";
+import Icon2 from "@/public/images/service/icon2.png";
+import Icon3 from "@/public/images/service/icon3.png";
+import Icon4 from "@/public/images/service/icon4.png";
+import Thumb from "@/public/images/service/service-thumb.png";
+import Shape1 from "@/public/images/service/shape1.png";
+import Image from "next/image";
 import FadeInRight from "../../animation/FadeInRight";
 function About() {
 	return (
@@ -11,10 +12,10 @@ function About() {
 				<div className="row">
 					<div className="col-lg-5 order-lg-2">
 						<FadeInRight className="sofax-inner-service-thumb">
-							<img src={Thumb} alt="Thumbs" />
+							<Image src={Thumb} alt="Thumbs" />
 						</FadeInRight>
 						<div className="sofax-inner-service-shape">
-							<img src={Shape1} alt="content-shape" />
+							<Image src={Shape1} alt="content-shape" />
 						</div>
 					</div>
 					<div className="col-lg-7">
@@ -27,7 +28,7 @@ function About() {
 							<div className="extra-mt">
 								<div className="sofax-iconbox-wrap2">
 									<div className="sofax-iconbox-icon2">
-										<img src={Icon2} alt="icon" />
+										<Image src={Icon2} alt="icon" />
 									</div>
 									<div className="sofax-iconbox-data2">
 										<h4>Multiply global marketing business to strategy</h4>
@@ -39,7 +40,7 @@ function About() {
 								</div>
 								<div className="sofax-iconbox-wrap2">
 									<div className="sofax-iconbox-icon2">
-										<img src={Icon3} alt="Icon" />
+										<Image src={Icon3} alt="Icon" />
 									</div>
 									<div className="sofax-iconbox-data2">
 										<h4>Outstanding social media marketing business</h4>
@@ -51,7 +52,7 @@ function About() {
 								</div>
 								<div className="sofax-iconbox-wrap2">
 									<div className="sofax-iconbox-icon2">
-										<img src={Icon4} alt="Icon" />
+										<Image src={Icon4} alt="Icon" />
 									</div>
 									<div className="sofax-iconbox-data2">
 										<h4>Customizable workflow</h4>

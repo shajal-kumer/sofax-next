@@ -2,7 +2,8 @@ import CommentForm from "./CommentForm";
 import CommentList from "./CommentList";
 import Navigation from "./Navigation";
 
-import BlogThumb from "../../../assets/images/blog/blogthumb1.png";
+import BlogThumb from "@/public/images/blog/blogthumb1.png";
+import Image from "next/image";
 import FadeInUp from "../../animation/FadeInUp";
 import BlogTag from "./BlogTag";
 function BlogDetails() {
@@ -10,7 +11,7 @@ function BlogDetails() {
 		<>
 			<div className="sofax-inner-blog-details-wrap">
 				<FadeInUp className="sofax-inner-blog-details-img ">
-					<img src={BlogThumb} alt="Blog Thumb" />
+					<Image src={BlogThumb} alt="Blog Thumb" />
 				</FadeInUp>
 				<div className="sofax-inner-blog-details-content">
 					<h3>

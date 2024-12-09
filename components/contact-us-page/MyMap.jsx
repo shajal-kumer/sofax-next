@@ -1,3 +1,4 @@
+"use client";
 import { AdvancedMarker, APIProvider, Map } from "@vis.gl/react-google-maps";
 
 function MyMap() {

@@ -1,4 +1,4 @@
-import Icon from "../../assets/images/v2/icon9.png";
+import Icon from "@/public/images/v2/icon9.png";
 function FaqAccordion() {
 	return (
 		<div className="sofax-accordion-section-wrapper">

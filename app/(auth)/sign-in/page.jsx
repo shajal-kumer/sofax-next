@@ -1,10 +1,6 @@
 import SignInForm from "@/components/auth/SignInForm";
 function SignIn() {
-	return (
-		<>
-			<SignInForm />
-		</>
-	);
+	return <SignInForm />;
 }
 
 export default SignIn;

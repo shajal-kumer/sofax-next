@@ -1,7 +1,8 @@
+"use client";
+import Icon from "@/public/images/contact/icon5.png";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
 import { ToastContainer, toast } from "react-toastify";
-import Icon from "../../assets/images/contact/icon5.png";
 import Field from "../common/Field";
 function SignUpForm() {
 	const {

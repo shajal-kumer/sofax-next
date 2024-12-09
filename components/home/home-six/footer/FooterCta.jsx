@@ -1,9 +1,9 @@
 "use client";
+import Field from "@/components/common/Field";
 import Shape from "@/public/images/v6/shape1v6.png";
 import Image from "next/image";
 import { useForm } from "react-hook-form";
 import { ToastContainer, toast } from "react-toastify";
-import Field from "../../../common/Field";
 function FooterCta() {
 	const {
 		register,

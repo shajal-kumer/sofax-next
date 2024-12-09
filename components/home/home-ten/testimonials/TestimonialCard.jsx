@@ -1,4 +1,5 @@
 import Star from "@/public/images/v3/starticon.svg";
+import Image from "next/image";
 
 function TestimonialCard({
 	testimonial: {
@@ -13,7 +14,7 @@ function TestimonialCard({
 				<ul>
 					{[...Array(rating)].map(() => (
 						<li key={crypto.randomUUID()}>
-							<img src={Star} alt="Rating" />
+							<Image src={Star} alt="Rating" />
 						</li>
 					))}
 				</ul>
@@ -23,7 +24,7 @@ function TestimonialCard({
 			</div>
 			<div className="sofax-testimonial-author">
 				<div className="sofax-testimonial-author-thumb">
-					<img src={image} alt="author thumb" />
+					<Image src={image} alt="author thumb" />
 				</div>
 				<div className="sofax-testimonial-author-data">
 					<h5>{name}</h5>

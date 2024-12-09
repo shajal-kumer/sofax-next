@@ -1,7 +1,7 @@
 "use client";
+import Field from "@/components/common/Field";
 import { useForm } from "react-hook-form";
 import { ToastContainer, toast } from "react-toastify";
-import Field from "../../../common/Field";
 function Subscription() {
 	const {
 		register,

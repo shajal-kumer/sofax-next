@@ -1,3 +1,4 @@
+"use client";
 import ProgressBar from "@ramonak/react-progress-bar";
 function SingleTeamProgressbar() {
 	return (

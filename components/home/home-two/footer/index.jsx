@@ -2,11 +2,11 @@
 import Link from "next/link";
 import CopyRight from "./CopyRight";
 
+import Field from "@/components/common/Field";
 import Logo from "@/public/images/logo/logo-white.svg";
 import Image from "next/image";
 import { useForm } from "react-hook-form";
 import { toast, ToastContainer } from "react-toastify";
-import Field from "../../../common/Field";
 
 function Footer() {
 	const {

@@ -1,11 +1,12 @@
+import ArrowRight from "@/public/images/v1/arrow-right.png";
+import Image from "next/image";
 import Link from "next/link";
-import ArrowRight from "../../assets/images/v1/arrow-right.png";
 
 function BlogCard({ blog: { title, category, description, date, image } }) {
 	return (
 		<>
 			<div className="sofax-inner-blog-img">
-				<img src={image} alt="blog thumb" />
+				<Image src={image} alt="blog thumb" />
 			</div>
 			<div className="sofax-inner-blog-content">
 				<div className="sofax-inner-blog-meta">
@@ -17,13 +18,13 @@ function BlogCard({ blog: { title, category, description, date, image } }) {
 					</Link>
 				</div>
 				<div className="sofax-inner-blog-text">
-					<Link hhref="/single-blog">
+					<Link href="/single-blog">
 						<h3>{title}</h3>
 					</Link>
 					<p>{description}</p>
 				</div>
 				<Link className="sofax-icon-btn sofax-blog-icon-btn" href="/single-blog">
-					Learn More <img src={ArrowRight} alt="arrow right" />
+					Learn More <Image src={ArrowRight} alt="arrow right" />
 				</Link>
 			</div>
 		</>

@@ -1,4 +1,5 @@
 import Icon from "@/public/images/v1/icon8.png";
+import Image from "next/image";
 import Link from "next/link";
 function PricingCard({ pricing: { title, description, plan, price, features } }) {
 	return (
@@ -20,7 +21,7 @@ function PricingCard({ pricing: { title, description, plan, price, features } })
 				<ul>
 					{features.map((feature) => (
 						<li key={feature}>
-							<img src={Icon} alt="Check Icon" />
+							<Image src={Icon} alt="Check Icon" />
 							{feature}
 						</li>
 					))}

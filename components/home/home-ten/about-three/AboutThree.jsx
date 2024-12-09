@@ -1,5 +1,6 @@
 import Thumb from "@/public/images/v10/thumb4v10.png";
 import Icon from "@/public/images/v2/icon9.png";
+import Image from "next/image";
 import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "../../../animation/FadeInStaggerTwo";
 import FadeInUp from "../../../animation/FadeInUp";
 function AboutThree() {
@@ -17,7 +18,7 @@ function AboutThree() {
 								the site running.
 							</p>
 							<FadeInUp className="extra-mt sofax-faq-thumbv10">
-								<img src={Thumb} alt="thumb" />
+								<Image src={Thumb} alt="thumb" />
 							</FadeInUp>
 						</div>
 					</div>
@@ -39,7 +40,7 @@ function AboutThree() {
 												Why buy a domain name from Sofax?
 											</button>
 											<div className="accordion-icon">
-												<img src={Icon} alt="Icon" />
+												<Image src={Icon} alt="Icon" />
 											</div>
 										</h3>
 										<div
@@ -64,7 +65,7 @@ function AboutThree() {
 												How does domain registration work?
 											</button>
 											<div className="accordion-icon">
-												<img src={Icon} alt="Icon" />
+												<Image src={Icon} alt="Icon" />
 											</div>
 										</h3>
 										<div
@@ -89,7 +90,7 @@ function AboutThree() {
 												Entities involved in domain registration?
 											</button>
 											<div className="accordion-icon">
-												<img src={Icon} alt="Icon" />
+												<Image src={Icon} alt="Icon" />
 											</div>
 										</h3>
 										<div

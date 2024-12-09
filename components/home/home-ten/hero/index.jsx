@@ -1,4 +1,5 @@
 import Thumb from "@/public/images/v10/thumb1v10.png";
+import Image from "next/image";
 import FadeInUp from "../../../animation/FadeInUp";
 import HeroContent from "./HeroContent";
 
@@ -12,7 +13,7 @@ function Hero() {
 					</div>
 					<div className="col-lg-5">
 						<FadeInUp className="hero-thumbv10">
-							<img src={Thumb} alt="Thumb" />
+							<Image src={Thumb} alt="Thumb" />
 						</FadeInUp>
 					</div>
 				</div>

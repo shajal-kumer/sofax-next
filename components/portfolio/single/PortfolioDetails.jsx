@@ -1,5 +1,6 @@
-import Icon from "../../../assets/images/portfolio/Icon1.png";
-import Image from "../../../assets/images/portfolio/image3.png";
+import Icon from "@/public/images/portfolio/Icon1.png";
+import Thumbs from "@/public/images/portfolio/image3.png";
+import Image from "next/image";
 function PortfolioDetails() {
 	return (
 		<section className="sofax-section-padding2">
@@ -8,7 +9,7 @@ function PortfolioDetails() {
 					<h2>Gradients can range from simple transitions to more complex ones</h2>
 				</div>
 				<div className="portfolio-details-thumb wow fadeInUpX">
-					<img src={Image} alt="Iamge" />
+					<Image src={Thumbs} alt="Iamge" />
 				</div>
 				<div className="sofax-portfolio-authore">
 					<div className="row">
@@ -36,7 +37,7 @@ function PortfolioDetails() {
 								<h4>
 									Preview Project
 									<a href="#">
-										<img src={Icon} alt="Icon 2" />
+										<Image src={Icon} alt="Icon 2" />
 									</a>
 								</h4>
 							</div>

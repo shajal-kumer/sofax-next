@@ -1,4 +1,4 @@
-import Header from "../../common/header";
+import Header from "@/components/common/header";
 
 function LayoutTwelve({ children }) {
 	return (

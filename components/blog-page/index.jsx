@@ -3,9 +3,9 @@ import RecentPosts from "./RecentPosts";
 import Search from "./Search";
 import Tags from "./Tags";
 
-import blogThumb1 from "../../assets/images/blog/blogthumb1.png";
-import blogThumb2 from "../../assets/images/blog/blogthumb2.png";
-import blogThumb3 from "../../assets/images/blog/blogthumb3.png";
+import blogThumb1 from "@/public/images/blog/blogthumb1.png";
+import blogThumb2 from "@/public/images/blog/blogthumb2.png";
+import blogThumb3 from "@/public/images/blog/blogthumb3.png";
 
 import FadeInStagger from "../animation/FadeInStagger";
 import BlogCard from "./BlogCard";

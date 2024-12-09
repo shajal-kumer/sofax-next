@@ -1,11 +1,12 @@
 import JobApplyForm from "./JobApplyForm";
 
-import Cash from "../../../assets/images/career/cash.png";
-import Clock from "../../../assets/images/career/clock.png";
-import Location from "../../../assets/images/career/location-marker.png";
-import Icon1 from "../../../assets/images/contact/icon1.png";
-import Icon2 from "../../../assets/images/contact/icon2.png";
-import Icon3 from "../../../assets/images/contact/icon3.png";
+import Cash from "@/public/images/career/cash.png";
+import Clock from "@/public/images/career/clock.png";
+import Location from "@/public/images/career/location-marker.png";
+import Icon1 from "@/public/images/contact/icon1.png";
+import Icon2 from "@/public/images/contact/icon2.png";
+import Icon3 from "@/public/images/contact/icon3.png";
+import Image from "next/image";
 
 function JobDetails() {
 	return (
@@ -23,7 +24,7 @@ function JobDetails() {
 						<div className="sofax-career-content-icon-text-wrapper2 sofax-career-details1">
 							<div className="sofax-career-content-icon-text-wrap">
 								<div className="sofax-career-content-icon2">
-									<img src={Clock} alt="clock icon" />
+									<Image src={Clock} alt="clock icon" />
 								</div>
 								<div className="sofax-career-content-text2">
 									<h6>Full Time</h6>
@@ -31,7 +32,7 @@ function JobDetails() {
 							</div>
 							<div className="sofax-career-content-icon-text-wrap">
 								<div className="sofax-career-content-icon2">
-									<img src={Location} alt="Location icon" />
+									<Image src={Location} alt="Location icon" />
 								</div>
 								<div className="sofax-career-content-text2">
 									<h6>London, UK</h6>
@@ -39,7 +40,7 @@ function JobDetails() {
 							</div>
 							<div className="sofax-career-content-icon-text-wrap">
 								<div className="sofax-career-content-icon2">
-									<img src={Cash} alt="Cash icon" />
+									<Image src={Cash} alt="Cash icon" />
 								</div>
 								<div className="sofax-career-content-text2">
 									<h6>$25k-40K</h6>
@@ -99,7 +100,7 @@ function JobDetails() {
 							</p>
 							<div className="sofax-iconbox-wrap2">
 								<div className="sofax-iconbox-icon2">
-									<img src={Icon1} alt="ICon" />
+									<Image src={Icon1} alt="ICon" />
 								</div>
 								<div className="sofax-iconbox-data2">
 									<h4>Chat with us</h4>
@@ -108,7 +109,7 @@ function JobDetails() {
 							</div>
 							<div className="sofax-iconbox-wrap2">
 								<div className="sofax-iconbox-icon2">
-									<img src={Icon2} alt="icon 2" />
+									<Image src={Icon2} alt="icon 2" />
 								</div>
 								<div className="sofax-iconbox-data2">
 									<h4>Give us a call</h4>
@@ -117,7 +118,7 @@ function JobDetails() {
 							</div>
 							<div className="sofax-iconbox-wrap2">
 								<div className="sofax-iconbox-icon2">
-									<img src={Icon3} alt="icon 3" />
+									<Image src={Icon3} alt="icon 3" />
 								</div>
 								<div className="sofax-iconbox-data2">
 									<h4>Email Us</h4>

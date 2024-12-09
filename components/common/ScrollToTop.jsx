@@ -1,6 +1,6 @@
 "use client";
+import ArrowTop from "@/public/images/arrowtop.png";
 import { useEffect, useState } from "react";
-import ArrowTop from "../../assets/images/arrowtop.png";
 export default function ScrollToTop() {
 	const [showTopBtn, setShowTopBtn] = useState(false);
 

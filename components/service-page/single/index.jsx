@@ -1,7 +1,8 @@
-import Icon from "../../../assets/images/service/icon5.png";
-import ServiceDetails from "../../../assets/images/service/service-details.png";
-import Thumb2 from "../../../assets/images/service/service-thumb2.png";
-import Shape2 from "../../../assets/images/v5/shape2.png";
+import Icon from "@/public/images/service/icon5.png";
+import ServiceDetails from "@/public/images/service/service-details.png";
+import Thumb2 from "@/public/images/service/service-thumb2.png";
+import Shape2 from "@/public/images/v5/shape2.png";
+import Image from "next/image";
 import FadeInRight from "../../animation/FadeInRight";
 import FadeInUp from "../../animation/FadeInUp";
 function SingleServiceDetails() {
@@ -18,7 +19,7 @@ function SingleServiceDetails() {
 						products.
 					</p>
 					<FadeInUp className="sofax-service-content-thumb extra-mt">
-						<img src={ServiceDetails} alt="ServiceDetails" />
+						<Image src={ServiceDetails} alt="ServiceDetails" />
 					</FadeInUp>
 				</div>
 				<div className="sofax-default-content sofax-inner-service-details position-ralatiove">
@@ -29,7 +30,7 @@ function SingleServiceDetails() {
 						applications. Here are some key components of UI/UX design services.
 					</p>
 					<div className="sofax-service-inner-details-shape">
-						<img src={Shape2} alt="Shape2" />
+						<Image src={Shape2} alt="Shape2" />
 					</div>
 				</div>
 
@@ -50,15 +51,15 @@ function SingleServiceDetails() {
 									<div className="sofax-list-icon-icon">
 										<ul>
 											<li>
-												<img src={Icon} alt="Icon" />
+												<Image src={Icon} alt="Icon" />
 												Measurement & analytics
 											</li>
 											<li>
-												<img src={Icon} alt="Icon" />
+												<Image src={Icon} alt="Icon" />
 												User-centered approach
 											</li>
 											<li>
-												<img src={Icon} alt="Icon" />
+												<Image src={Icon} alt="Icon" />
 												Persona development
 											</li>
 										</ul>
@@ -66,15 +67,15 @@ function SingleServiceDetails() {
 									<div className="sofax-list-icon-icon">
 										<ul>
 											<li>
-												<img src={Icon} alt="Icon" />
+												<Image src={Icon} alt="Icon" />
 												Wireframing & prototyping
 											</li>
 											<li>
-												<img src={Icon} alt="Icon" />
+												<Image src={Icon} alt="Icon" />
 												Stakeholder alignment
 											</li>
 											<li>
-												<img src={Icon} alt="Icon" />
+												<Image src={Icon} alt="Icon" />
 												Iterative improvement
 											</li>
 										</ul>
@@ -120,7 +121,7 @@ function SingleServiceDetails() {
 					</div>
 					<div className="col-lg-5 order-lg-2">
 						<FadeInRight className="sofax-inner-content-thumb">
-							<img src={Thumb2} alt="THumbs" />
+							<Image src={Thumb2} alt="THumbs" />
 						</FadeInRight>
 					</div>
 				</div>

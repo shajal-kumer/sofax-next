@@ -1,6 +1,7 @@
+import thumb1 from "@/public/images/blog/thumb1.png";
+import thumb2 from "@/public/images/blog/thumb2.png";
+import Image from "next/image";
 import Link from "next/link";
-import thumb1 from "../../../assets/images/blog/thumb1.png";
-import thumb2 from "../../../assets/images/blog/thumb2.png";
 
 const commentsData = [
 	{
@@ -40,7 +41,7 @@ function CommentList() {
 					<li className={`${item.children && "children"}`} key={item.id}>
 						<div className="sofax-post-comment-wrap">
 							<div className="sofax-post-comment-thumb">
-								<img src={item.avatar} alt={item.author} />
+								<Image src={item.avatar} alt={item.author} />
 							</div>
 							<div className="sofax-post-comment-data">
 								<div className="sofax-post-comment-data-wrap">

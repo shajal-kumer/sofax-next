@@ -1,6 +1,7 @@
-import image1 from "../../assets/images/blog/blogthumb4.png";
-import image2 from "../../assets/images/blog/blogthumb5.png";
-import image3 from "../../assets/images/blog/blogthumb6.png";
+import image1 from "@/public/images/blog/blogthumb4.png";
+import image2 from "@/public/images/blog/blogthumb5.png";
+import image3 from "@/public/images/blog/blogthumb6.png";
+import Image from "next/image";
 
 import Link from "next/link";
 const recentPostData = [
@@ -31,7 +32,7 @@ function RecentPosts() {
 				<Link href="/single-blog" key={post.id}>
 					<div className="title-post-thumb">
 						<div className="title-post-img">
-							<img src={post.image} alt="blog post image" />
+							<Image src={post.image} alt="blog post image" />
 						</div>
 						<div className="title-post-content">
 							<ul>

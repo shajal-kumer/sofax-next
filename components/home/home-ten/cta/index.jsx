@@ -1,4 +1,5 @@
 import Shape from "@/public/images/v10/shape1v10.png";
+import Image from "next/image";
 import Link from "next/link";
 import FadeInUp from "../../../animation/FadeInUp";
 function Cta() {
@@ -20,7 +21,7 @@ function Cta() {
 						<span className="cta-bottom">Full access. No credit card needed.</span>
 					</FadeInUp>
 					<div className="sofax-cta-shape">
-						<img src={Shape} alt="Shape" />
+						<Image src={Shape} alt="Shape" />
 					</div>
 				</div>
 			</div>
