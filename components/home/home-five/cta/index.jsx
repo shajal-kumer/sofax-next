@@ -1,4 +1,5 @@
 import Shape4Img from "@/public/images/v5/shape4.png";
+import Image from "next/image";
 import Link from "next/link";
 import FadeInUp from "../../../animation/FadeInUp";
 function Cta() {
@@ -20,7 +21,7 @@ function Cta() {
 				</div>
 			</div>
 			<div className="aximo-cta-shape3">
-				<img src={Shape4Img} alt="shape" />
+				<Image src={Shape4Img} alt="shape" />
 			</div>
 		</div>
 	);

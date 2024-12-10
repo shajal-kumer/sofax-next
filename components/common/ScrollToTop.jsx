@@ -1,5 +1,6 @@
 "use client";
 import ArrowTop from "@/public/images/arrowtop.png";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 export default function ScrollToTop() {
 	const [showTopBtn, setShowTopBtn] = useState(false);
@@ -28,7 +29,7 @@ export default function ScrollToTop() {
 						<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
 					</svg>
 					<div className="top-arrow">
-						<img src={ArrowTop} alt="arrow top" />
+						<Image src={ArrowTop} alt="arrow top" />
 					</div>
 				</div>
 			</div>

@@ -1,5 +1,6 @@
 "use client";
 import Icon from "@/public/images/contact/icon5.png";
+import Image from "next/image";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
 import { ToastContainer, toast } from "react-toastify";
@@ -81,7 +82,7 @@ function SignUpForm() {
 							</div>
 							<div className="login-with-google">
 								<a target="_blank" href="https://www.google.com/">
-									<img src={Icon} alt="Icon" />
+									<Image src={Icon} alt="Icon" />
 									<h5>Sign up with google</h5>
 								</a>
 							</div>
