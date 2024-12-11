@@ -1,8 +1,9 @@
 import BreadCrumb from "@/components/common/Breadcrumb";
 import Faq from "@/components/home/home-five/faq";
 import dynamic from "next/dynamic";
+
 const PortfolioList = dynamic(() => import("@/components/portfolio/PortfolioList"), {
-	ssr: false, // This ensures the component is not SSR'd
+	ssr: false,
 });
 
 export const metadata = {
