@@ -1,6 +1,10 @@
 import BreadCrumb from "@/components/common/Breadcrumb";
 import Faq from "@/components/home/home-five/faq";
-import PortfolioList from "@/components/portfolio/PortfolioList";
+import dynamic from "next/dynamic";
+const PortfolioList = dynamic(() => import("@/components/portfolio/PortfolioList"), {
+	ssr: false, // This ensures the component is not SSR'd
+});
+
 export const metadata = {
 	title: "Sofax || Responsive Next.js Template Portfolio Page",
 	description: "Sofax || Responsive Next.js Template",
