@@ -5,7 +5,7 @@ function HeaderButton() {
 			<Link className="header-three-btn" href="/sign-in">
 				Login
 			</Link>
-			<Link className="sofax-default-btn pill sofax-header-btn" data-text="Sign Up Free" href="sign-up">
+			<Link className="sofax-default-btn pill sofax-header-btn" data-text="Sign Up Free" href="/sign-up">
 				<span className="button-wraper">Sign Up Free</span>
 			</Link>
 		</div>

@@ -21,7 +21,7 @@ function Footer() {
 										<Link href="/contact-us">Privacy Policy</Link>
 									</li>
 									<li>
-										<Link href="/terms-condition">Terms & Conditions</Link>
+										<Link href="//terms-and-condition">Terms & Conditions</Link>
 									</li>
 								</ul>
 							</div>
@@ -37,7 +37,7 @@ function Footer() {
 										<Link href="/contact-us">Style Guide</Link>
 									</li>
 									<li>
-										<Link href="/404">404 Pages</Link>
+										<Link href="/error-page">404 Pages</Link>
 									</li>
 									<li>
 										<Link href="/contact-us">Licenses</Link>
@@ -87,7 +87,7 @@ function Footer() {
 				</div>
 				<div className="sofax-footer3-wrap">
 					<div className="sofax-footer3-logo">
-						<Link href="/muti-page/home-three">
+						<Link href="/multi-page/home-three">
 							<Image src={LogoDark} alt="logo" />
 						</Link>
 					</div>

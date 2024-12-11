@@ -13,7 +13,7 @@ function Footer() {
 					<div className="row">
 						<div className="col-xl-4 col-md-12">
 							<div className="sofax-footer-wrap mr-25">
-								<Link href="/muti-page/home-five">
+								<Link href="/multi-page/home-five">
 									<Image src={Logo} alt="logo" />
 								</Link>
 								<p>

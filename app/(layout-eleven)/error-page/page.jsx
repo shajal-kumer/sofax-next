@@ -1,4 +1,4 @@
-import ErrorImg from "@/public/images/contact/404.png";
+import ErrorImg from "@/public/images/contact/error-page.png";
 import Image from "next/image";
 import Link from "next/link";
 export const metadata = {

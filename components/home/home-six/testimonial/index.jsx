@@ -170,11 +170,7 @@ function Testimonial() {
 						</div>
 						<div className="col-xl-5 col-lg-4 d-flex justify-content-end align-items-center">
 							<FadeInUp className="sofax-title-btn">
-								<Link
-									className="sofax-default-btn pill"
-									data-text="View All Review"
-									href="/portfolio-one"
-								>
+								<Link className="sofax-default-btn pill" data-text="View All Review" href="/portfolio">
 									<span className="button-wraper">View All Review</span>
 								</Link>
 							</FadeInUp>

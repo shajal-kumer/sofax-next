@@ -49,7 +49,7 @@ function Footer() {
 										<Link href="/contact-us">Style guide</Link>
 									</li>
 									<li>
-										<Link href="/404">404 Pages</Link>
+										<Link href="/error-page">404 Pages</Link>
 									</li>
 									<li>
 										<Link href="/contact-us">Licenses</Link>

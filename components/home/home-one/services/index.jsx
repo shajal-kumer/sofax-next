@@ -42,7 +42,7 @@ function Services() {
 						</div>
 						<div className="col-xl-4 col-lg-4 d-flex justify-content-end align-items-center">
 							<FadeInUp className="sofax-title-btn">
-								<Link className="sofax-default-btn pill" data-text="View all services" href="/services">
+								<Link className="sofax-default-btn pill" data-text="View all services" href="/service">
 									<span className="button-wraper">View all services</span>
 								</Link>
 							</FadeInUp>

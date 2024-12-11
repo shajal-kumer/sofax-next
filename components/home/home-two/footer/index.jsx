@@ -28,7 +28,7 @@ function Footer() {
 					<div className="row">
 						<div className="col-xl-4 col-md-12">
 							<div className="sofax-footer-wrap mr-15 light-color">
-								<Link href="/muti-page/home-two">
+								<Link href="/multi-page/home-two">
 									<Image src={Logo} alt="Logo" />
 								</Link>
 								<p>
@@ -151,7 +151,7 @@ function Footer() {
 										<Link href="/contact-us">Style guide</Link>
 									</li>
 									<li>
-										<Link href="/404">404 Pages</Link>
+										<Link href="/error-page">404 Pages</Link>
 									</li>
 									<li>
 										<Link href="/contact-us">Licenses</Link>
