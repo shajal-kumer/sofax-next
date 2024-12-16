@@ -1,6 +1,8 @@
-bodt {
-	background-color: red;
-}
+/* *,
+*::after,
+*::before {
+	outline: 1px solid red;
+} */
 
 /*Header Css StaRT*/
 .site-navbar {
@@ -1222,9 +1224,11 @@ a.log-in-btn:hover:after {
 }
 
 /* home eight */
-.sofax-features-wrapv8 {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+@media (min-width: 992px) {
+	.sofax-features-wrapv8 {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
 
 /* Home nine */
@@ -1316,3 +1320,45 @@ a.log-in-btn:hover:after {
 	border: none;
 	cursor: pointer;
 }
+
+@media (max-width: 575px) {
+	.download-btn {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.sofax-testimonial-2column-slider .swiper-button-prev {
+		right: 25%;
+	}
+	.sofax-testimonial-2column-sliderv5 .swiper-button-prev {
+		left: 20%;
+	}
+	.sofax-testimonial-rattingv7 {
+		margin-top: 20px;
+	}
+}
+@media (max-width: 767px) {
+	.sofax-portfolio-column {
+		margin-left: 0px;
+	}
+}
+
+.brand-logo {
+	margin-right: 0px;
+}
+
+.sofax-counter-data.counterv8 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/* .sofax-testimonial-rattingv7 img {
+	width: 16px;
+	height: 16px;
+}
+
+
+.sofax-testimonial-wrapperv7 {
+	padding: 20px;
+} */

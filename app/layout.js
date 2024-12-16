@@ -19,6 +19,8 @@ import "react-toastify/dist/ReactToastify.css";
 // Bootstrap js
 import ImportBsJS from "@/components/BootstrapClient";
 
+// ScrollToTop
+import ScrollToTop from "@/hooks/ScrollToTop";
 // main css
 import "../public/css/app.css";
 import "../public/css/main.css";
@@ -34,6 +36,7 @@ export default function RootLayout({ children }) {
 			<body className={`${inter.variable} ${DMSans.variable} ${clashGrotesk.variable}`}>
 				<ImportBsJS />
 				{children}
+				<ScrollToTop />
 			</body>
 		</html>
 	);

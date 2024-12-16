@@ -6,7 +6,7 @@ function Counter() {
 			<div id="sofax-counter"></div>
 			<div className="container">
 				<div className="sofax-counter-wrap position-ralatiove">
-					<div className="sofax-counter-data version-6 ">
+					<div className="sofax-counter-data  ">
 						<h2>
 							<CountUp className="sofax-counter" end={1} duration={3} redraw={true} enableScrollSpy />
 							M+
@@ -14,14 +14,14 @@ function Counter() {
 						<p>Active Website</p>
 					</div>
 					<div className="border-right"></div>
-					<div className="sofax-counter-data version-6">
+					<div className="sofax-counter-data ">
 						<h2>
 							<CountUp className="sofax-counter" end={500} duration={3} redraw={true} enableScrollSpy />K
 						</h2>
 						<p>Worldwide Server</p>
 					</div>
 					<div className="border-right2"></div>
-					<div className="sofax-counter-data version-6">
+					<div className="sofax-counter-data ">
 						<h2>
 							<CountUp className="sofax-counter" end={50} duration={3} redraw={true} enableScrollSpy />+
 						</h2>

@@ -148,12 +148,14 @@ function Footer() {
 						<div className="col-xl-3 col-md-4">
 							<div className="sofax-footer-menu sofax-footer-active">
 								<h5>Download Now</h5>
-								<a className="social-icon" href="https://www.apple.com/app-store/" target="_blank">
-									<Image src={AppleStore} alt="Apple Store" />
-								</a>
-								<a className="social-icon" href="https://playstore.com/" target="_blank">
-									<Image src={PLayStore} alt="Play Store" />
-								</a>
+								<div className="download-btn">
+									<a className="social-icon" href="https://www.apple.com/app-store/" target="_blank">
+										<Image src={AppleStore} alt="Apple Store" />
+									</a>
+									<a className="social-icon" href="https://playstore.com/" target="_blank">
+										<Image src={PLayStore} alt="Play Store" />
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>

@@ -47,7 +47,7 @@ function About() {
 									</ul>
 								</div>
 							</div>
-							<FadeInUp className="extra-mt tac">
+							<FadeInUp className="extra-mt tac rt-mb-lg-50">
 								<Link className="sofax-default-btn pill" data-text="About Us" href="/about-us">
 									<span className="button-wraper">About Us</span>
 								</Link>

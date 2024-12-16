@@ -91,7 +91,7 @@ const swiperSettings = {
 	loop: true,
 	allowTouchMove: false,
 	modules: [Autoplay],
-	slidesPerView: 2,
+	slidesPerView: 1,
 	breakpoints: {
 		640: {
 			slidesPerView: 3,

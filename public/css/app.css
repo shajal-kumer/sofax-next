@@ -366,7 +366,7 @@ h6,
 h1,
 .h1 {
 	font-size: 120px;
-	letter-spacing: -3px;
+	letter-spacing: -9px;
 	line-height: 1em;
 	color: #0e0e0e;
 	margin-bottom: 24px;
@@ -402,7 +402,7 @@ h2,
 .h2 {
 	font-size: 75px;
 	line-height: 1.07em; /* 116.667% */
-	letter-spacing: -2px;
+	letter-spacing: -5px;
 }
 @media (max-width: 1199px) {
 	h2,
@@ -2135,7 +2135,6 @@ a.social-icon img {
 @media (max-width: 767px) {
 	.sofax-footer3-wrap {
 		display: block;
-		text-align: center;
 	}
 }
 .sofax-footer3-text {
@@ -3685,7 +3684,7 @@ h1.post__title {
 
 .counterv8 h2 {
 	font-size: 50px !important;
-	max-width: 430px;
+	max-width: 440px;
 	letter-spacing: 0 !important;
 }
 @media (max-width: 991px) {
@@ -3931,6 +3930,7 @@ h1.post__title {
 }
 .sofax-iconbox-data.content-v5 h4 {
 	margin-bottom: 0;
+	text-align: left;
 }
 .sofax-iconbox-wrap2 {
 	display: flex;
@@ -4578,14 +4578,26 @@ h1.post__title {
 .sofax-testimonial-rattingv7 {
 	margin-top: 50px;
 }
+@media (max-width: 1200px) {
+	.sofax-testimonial-rattingv7 img {
+		width: 16px;
+		height: 16px;
+	}
+	.sofax-testimonial-rattingv7 {
+		margin-top: 18px;
+	}
+	.sofax-testimonial-wrapperv7 {
+		padding: 20px;
+	}
+}
 @media (max-width: 991px) {
 	.sofax-testimonial-rattingv7 {
-		margin-top: 90px;
+		margin-top: 50px;
 	}
 }
 @media (max-width: 767px) {
 	.sofax-testimonial-rattingv7 {
-		margin-top: 50px;
+		margin-top: 30px;
 	}
 }
 .sofax-testimonial-rattingv7 ul li {
@@ -6089,16 +6101,35 @@ a.sofax-connect-login img {
 @media (max-width: 991px) {
 	.hero5-thumb .sofax-popup-video2 img {
 		width: 60%;
+		display: none;
+	}
+	.hero5-thumb .play-btn-img {
+		border: 2px solid #000 !important;
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		padding: 20px;
+		background-color: #fff;
 	}
 }
 @media (max-width: 767px) {
 	.hero5-thumb .sofax-popup-video2 img {
 		width: 50%;
+		display: none;
+	}
+	.hero5-thumb .play-btn-img {
+		border: 2px solid #000 !important;
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		padding: 20px;
+		background-color: #fff;
 	}
 }
 @media (max-width: 525px) {
 	.hero5-thumb .sofax-popup-video2 img {
 		width: 30%;
+		display: none;
 	}
 }
 .hero5-thumb .play-btn img {
@@ -7574,6 +7605,11 @@ img.plasicon {
 .sofax-about-content-wrap {
 	display: flex;
 	gap: 30px;
+}
+@media (max-width: 767px) {
+	.sofax-about-content-wrap {
+		flex-direction: column;
+	}
 }
 
 .aboutv8 h4 {

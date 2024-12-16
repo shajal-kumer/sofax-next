@@ -72,7 +72,7 @@ const swiperSettings = {
 
 function Testimonials() {
 	return (
-		<section className="section sofax-section-padding2" id="testimonial">
+		<section className="section sofax-section-padding2 bg-light" id="testimonial">
 			<div className="container">
 				<div className="sofax-section-title center">
 					<div className="tg-heading-subheading animation-style3">

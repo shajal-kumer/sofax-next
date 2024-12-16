@@ -16,10 +16,10 @@ function HeroButton() {
 						<span className="button-wraper">View Our Services</span>
 					</Link>
 				</FadeInStaggerTwoChildren>
+				<div className="hero4-shape1">
+					<Image src={Shape} alt="Shape" />
+				</div>
 			</FadeInStaggerTwo>
-			<div className="hero4-shape1">
-				<Image src={Shape} alt="Shape" />
-			</div>
 		</>
 	);
 }

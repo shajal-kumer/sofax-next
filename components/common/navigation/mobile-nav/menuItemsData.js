@@ -9,43 +9,43 @@ export const menuItemsData = [
 				submenu: [
 					{
 						title: "Sales Management",
-						url: "/multi-page/home-one",
+						url: "multi-page/home-one",
 					},
 					{
 						title: "Crypto App",
-						url: "/multi-page/home-two",
+						url: "multi-page/home-two",
 					},
 					{
 						title: "Team Management",
-						url: "/multi-page/home-three",
+						url: "multi-page/home-three",
 					},
 					{
 						title: "Socail Agency",
-						url: "/multi-page/home-four",
+						url: "multi-page/home-four",
 					},
 					{
 						title: "Digital Agency",
-						url: "/multi-page/home-five",
+						url: "multi-page/home-five",
 					},
 					{
 						title: "CRM",
-						url: "/multi-page/home-six",
+						url: "multi-page/home-six",
 					},
 					{
 						title: "AI SaaS",
-						url: "/multi-page/home-seven",
+						url: "multi-page/home-seven",
 					},
 					{
 						title: "AT Service",
-						url: "/multi-page/home-eight",
+						url: "multi-page/home-eight",
 					},
 					{
 						title: "Email Marketing",
-						url: "/multi-page/home-nine",
+						url: "multi-page/home-nine",
 					},
 					{
 						title: "Web Hosting",
-						url: "/multi-page/home-ten",
+						url: "multi-page/home-ten",
 					},
 				],
 			},
@@ -55,43 +55,43 @@ export const menuItemsData = [
 				submenu: [
 					{
 						title: "Sales Management",
-						url: "/one-page/home-one",
+						url: "one-page/home-one",
 					},
 					{
 						title: "Crypto App",
-						url: "/one-page/home-two",
+						url: "one-page/home-two",
 					},
 					{
 						title: "Team Management",
-						url: "/one-page/home-three",
+						url: "one-page/home-three",
 					},
 					{
 						title: "Socail Agency",
-						url: "/one-page/home-four",
+						url: "one-page/home-four",
 					},
 					{
 						title: "Digital Agency",
-						url: "/one-page/home-five",
+						url: "one-page/home-five",
 					},
 					{
 						title: "CRM",
-						url: "/one-page/home-six",
+						url: "one-page/home-six",
 					},
 					{
 						title: "AI SaaS",
-						url: "/one-page/home-seven",
+						url: "one-page/home-seven",
 					},
 					{
 						title: "AT Service",
-						url: "/one-page/home-eight",
+						url: "one-page/home-eight",
 					},
 					{
 						title: "Email Marketing",
-						url: "/one-page/home-nine",
+						url: "one-page/home-nine",
 					},
 					{
 						title: "Web Hosting",
-						url: "/one-page/home-ten",
+						url: "one-page/home-ten",
 					},
 				],
 			},
